@@ -44,12 +44,25 @@ src/
 └── main.tsx
 
 
+
 ---
 
 ## 🧱 Status do Projeto
 
-> 🧩 Em desenvolvimento — refatoração em andamento  
-> Site original: [https://sevensreview.com.br](https://sevensreview.com.br)
+## 🧱 Status do Projeto
+
+| Status          | Descrição                                                                 |
+|-----------------|---------------------------------------------------------------------------|
+| 🟢 Em desenvolvimento | Refatoração do site original, criando SPA com React, TypeScript e Tailwind |
+| 🔵 Layout & UI       | Componentes principais criados (Header, ReviewSection, ReviewVeredito)   |
+| 🟡 Funcionalidades  | Rotas, dados mock e integração inicial concluídas                          |
+| 🟡 Estatísticas     | Implementar ranking de estatísticas e ranking de melhores gêneros         |
+| 🟡 Páginas novas    | Criar página de Guia, página de Setup e integração de outras reviews      |
+| 🔴 Testes           | Testes unitários, responsividade e ajustes finos ainda em andamento        |
+
+> ⚡ Atualize esta tabela à medida que o projeto evoluir.  
+> Use emojis para indicar progresso visualmente: 🟢 pronto, 🔵 em progresso, 🟡 parcial, 🔴 pendente.
+
 
 ---
 
