@@ -27,14 +27,13 @@ export default function HomePage() {
   const paginatedReviews = sortedReviews.slice((page - 1) * quantity, page * quantity);
 
   return (
-    <div className="container mx-auto px-4 py-6">
-      <h1 className="text-3xl font-bold mb-4">Últimas Reviews</h1>
+    <div className="container mx-auto px-4 py-6 bg-gray-50 dark:bg-gray-900 min-h-screen transition-colors">
+      <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">Últimas Reviews</h1>
 
       {/* Filtro e Ordenação */}
       <div className="flex flex-wrap gap-2 mb-6 items-center">
-        {/* Quantidade */}
         <select
-          className="border rounded px-3 py-2"
+          className="border rounded px-3 py-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
           value={quantity}
           onChange={(e) => setQuantity(Number(e.target.value))}
         >
@@ -45,9 +44,8 @@ export default function HomePage() {
           ))}
         </select>
 
-        {/* Tipo de ordenação */}
         <select
-          className="border rounded px-3 py-2"
+          className="border rounded px-3 py-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
           value={sortType}
           onChange={(e) => setSortType(e.target.value as "date" | "note" | "name")}
         >
@@ -58,17 +56,16 @@ export default function HomePage() {
           ))}
         </select>
 
-        {/* Botão confirmar */}
         <button
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
-          onClick={() => setPage(1)} // Resetar para a primeira página ao mudar filtro
+          onClick={() => setPage(1)}
         >
           Aplicar
         </button>
       </div>
 
       {/* Grid de reviews */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
         {paginatedReviews.map((review: Review) => (
           <ReviewCard key={review.name} review={review} />
         ))}
@@ -77,7 +74,7 @@ export default function HomePage() {
       {/* Paginação */}
       <div className="flex justify-center mt-6 gap-2 flex-wrap">
         <button
-          className="px-3 py-1 border rounded disabled:opacity-50"
+          className="px-3 py-1 border rounded-xl text-gray-900 dark:text-gray-100 disabled:opacity-50"
           onClick={() => setPage((p) => Math.max(p - 1, 1))}
           disabled={page === 1}
         >
@@ -87,8 +84,10 @@ export default function HomePage() {
         {Array.from({ length: totalPages }, (_, i) => (
           <button
             key={i}
-            className={`px-3 py-1 border rounded ${
-              page === i + 1 ? "bg-blue-500 text-white" : "bg-white dark:bg-gray-800"
+            className={`px-3 py-1 border rounded-xl transition-colors ${
+              page === i + 1
+                ? "bg-blue-500 text-white"
+                : "bg-white text-gray-900 dark:bg-gray-800 dark:text-gray-100"
             }`}
             onClick={() => setPage(i + 1)}
           >
@@ -97,7 +96,7 @@ export default function HomePage() {
         ))}
 
         <button
-          className="px-3 py-1 border rounded disabled:opacity-50"
+          className="px-3 py-1 border rounded-xl text-gray-900 dark:text-gray-100 disabled:opacity-50"
           onClick={() => setPage((p) => Math.min(p + 1, totalPages))}
           disabled={page === totalPages}
         >

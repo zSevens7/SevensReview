@@ -5,6 +5,7 @@ import ReviewSection from "../../components/ReviewSection";
 import GameImage from "../../components/GameImage";
 import ReviewVeredito from "../../components/ReviewVeredito";
 import { gamesData } from "../../data/HeaderJogos";
+import { Helmet } from "react-helmet-async";
 
 const assassin = gamesData.find(game => game.slug === "assassin");
 
@@ -12,6 +13,15 @@ export default function AssassinCreedShadow() {
   if (!assassin) return <div>Jogo não encontrado</div>;
 
   return (
+    <>
+        <Helmet>
+            <title>{assassin.title} - SevensReview.com.br</title>
+            <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+            <meta
+              name="description"
+              content={`Review completo de ${assassin.title}. Avaliação de mecânica, gráficos, trilha sonora, história e otimização.`}
+            />
+          </Helmet>
     <div className="flex flex-col gap-6">
       {/* Header do review */}
       <ReviewHeader
@@ -120,5 +130,6 @@ export default function AssassinCreedShadow() {
         date="29/03/2025 16:04"
       />
     </div>
+    </>
   );
 }

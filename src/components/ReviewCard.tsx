@@ -16,8 +16,8 @@ export default function ReviewCard({ review }: ReviewCardProps) {
 
   return (
     <Link to={review.path} className="group">
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition p-4 flex flex-col
-                      hover:ring-4 hover:ring-blue-400 hover:ring-opacity-40 cursor-pointer">
+      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition p-4 flex flex-col h-full
+                hover:ring-4 hover:ring-blue-400 hover:ring-opacity-40 cursor-pointer">
         <img
           src={review.assetPath}
           alt={review.name}

@@ -12,7 +12,7 @@ const getBorderColor = (rating?: number) => {
   if (!rating) return "border-gray-400";
   if (rating >= 90) return "border-yellow-400";   // Ouro
   if (rating >= 80) return "border-green-800";    // Verde escuro
-  if (rating >= 70) return "border-yellow-300";   // Amarelo claro
+  if (rating >= 70) return "border-orange-300";   // Amarelo claro
   if (rating >= 50) return "border-red-300";      // Vermelho claro
   return "border-red-600";                        // Vermelho forte
 };

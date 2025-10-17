@@ -12,29 +12,40 @@ interface SearchBarProps {
 }
 
 const pages: Page[] = [
-  { name: "voice of cards: the beast of burden", path: "/jogos/Voice-Of-Cards-The-Beast-Of-Burden" },
-  { name: "inzoi", path: "/jogos/INZOI" },
-  { name: "assassin's creed: shadows", path: "/jogos/Assassins-Creed-Shadows" },
-  { name: "pokemon yellow", path: "/jogos/Pokemon-Yellow-Legacy" },
-  { name: "football life simulator", path: "/jogos/Football-Life-Simulator" },
-  { name: "pokemon crystal", path: "/jogos/Pokemon-Polished-Crystal" },
-  { name: "runescape: dragonwilds", path: "/jogos/Runescape" },
-  { name: "clair obscur: expedition 33", path: "/jogos/Expedition33" },
-  { name: "super mario 3d land", path: "/jogos/Super-Mario-3D" },
-  { name: "doom: the dark ages", path: "/jogos/Doom-The-Dark-Ages" },
-  { name: "surroundead", path: "/jogos/SurrounDead" },
-  { name: "f1 2025", path: "/jogos/F1-2025" },
-  { name: "rune factory 4", path: "/jogos/Rune-Factory-4" },
-  { name: "football manager 2024", path: "/jogos/FM-24" },
-  { name: "pokemon emerald", path: "/jogos/Pokemon-Emerald" },
-  { name: "peak", path: "/jogos/PEAK" },
-  { name: "death stranding 2", path: "/jogos/Death-Stranding-2" },
-  { name: "demon slayer 2", path: "/jogos/Demon-Slayer-2" },
-  { name: "dokimon quest", path: "/jogos/Dokimon-Quest" },
-  { name: "lost soul aside", path: "/jogos/Lost-Soul" },
-  { name: "octopath traveler", path: "/jogos/Octopath-Traveler-1" },
-  { name: "digimon story time stranger", path: "/jogos/Digimon-Story-Time-Stranger" },
+  { name: "kingdom come: deliverance ii", path: "/jogos/kingdom-come-deliverance-2" },
+  { name: "pokemon glazed", path: "/jogos/pokemon-glazed" },
+  { name: "voice of cards: the beast of burden", path: "/jogos/voice-of-cards-the-beast-of-burden" },
+  { name: "inzoi", path: "/jogos/inzoi" },
+  { name: "assassin's creed: shadows", path: "/jogos/assassin-creed-shadow" },
+  { name: "pokemon yellow legacy", path: "/jogos/pokemon-yellow-legacy" },
+  { name: "football life simulator", path: "/jogos/football-life-simulator" },
+  { name: "pokemon polished crystal", path: "/jogos/pokemon-polished-crystal" },
+  { name: "runescape: dragonwilds", path: "/jogos/runescape-dragonwilds" },
+  { name: "clair obscur: expedition 33", path: "/jogos/clair-obscur-expedition-33" },
+  { name: "super mario 3d land", path: "/jogos/super-mario-3d-land" },
+  { name: "doom: the dark ages", path: "/jogos/doom-the-dark-ages" },
+  { name: "surroundead", path: "/jogos/surroundead" },
+  { name: "f1 2025", path: "/jogos/f1-2025" },
+  { name: "rune factory 4", path: "/jogos/rune-factory-4" },
+  { name: "football manager 2024", path: "/jogos/football-manager-2024" },
+  { name: "pokemon emerald legacy", path: "/jogos/pokemon-emerald-legacy" },
+  { name: "peak", path: "/jogos/peak" },
+  { name: "death stranding 2", path: "/jogos/death-stranding-2" },
+  { name: "demon slayer 2", path: "/jogos/demon-slayer-2" },
+  { name: "dokimon quest", path: "/jogos/dokimon-quest" },
+  { name: "lost soul aside", path: "/jogos/lost-soul-aside" },
+  { name: "octopath traveler 1", path: "/jogos/octopath-traveler-1" },
+  { name: "digimon story time stranger", path: "/jogos/digimon-story-time-stranger" },
 ];
+
+// Log inicial para verificar o array de páginas
+console.log("=== INITIAL PAGES ARRAY ===");
+pages.forEach((page, index) => {
+  if (page.name.includes("octopath")) {
+    console.log(`Octopath entry - Index: ${index}, Name: "${page.name}", Path: "${page.path}"`);
+    console.log(`Path characters:`, Array.from(page.path).map(char => `${char} (${char.charCodeAt(0)})`));
+  }
+});
 
 const SearchBar: React.FC<SearchBarProps> = ({ isSearching, setIsSearching }) => {
   const [query, setQuery] = useState(""); 
@@ -44,14 +55,89 @@ const SearchBar: React.FC<SearchBarProps> = ({ isSearching, setIsSearching }) =>
     p.name.toLowerCase().includes(query.toLowerCase())
   );
 
+  // Log quando filteredPages muda
+  React.useEffect(() => {
+    if (query.includes("octopath")) {
+      console.log("=== FILTERED PAGES UPDATE ===");
+      console.log("Query:", query);
+      console.log("Filtered pages:", filteredPages);
+      filteredPages.forEach((page, index) => {
+        console.log(`Result ${index}:`, {
+          name: page.name,
+          path: page.path,
+          pathChars: Array.from(page.path).map(char => `${char} (${char.charCodeAt(0)})`)
+        });
+      });
+    }
+  }, [filteredPages, query]);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+    console.log("=== FORM SUBMIT DEBUG ===");
+    console.log("Query:", query);
+    console.log("Filtered pages count:", filteredPages.length);
+    
+    filteredPages.forEach((page, index) => {
+      console.log(`Page ${index}:`, {
+        name: page.name,
+        path: page.path,
+        pathChars: Array.from(page.path).map(char => `${char} (${char.charCodeAt(0)})`)
+      });
+    });
+
     if (filteredPages.length === 1) {
-      window.location.href = filteredPages[0].path;
+      const targetPath = filteredPages[0].path;
+      console.log("🚀 REDIRECTING TO:", targetPath);
+      console.log("🔍 PATH ANALYSIS:", {
+        original: targetPath,
+        chars: Array.from(targetPath),
+        charCodes: Array.from(targetPath).map(char => char.charCodeAt(0)),
+        lastChar: targetPath[targetPath.length - 1],
+        lastCharCode: targetPath.charCodeAt(targetPath.length - 1)
+      });
+      
+      // Verificação extra antes do redirect
+      if (targetPath.includes("I") && !targetPath.includes("1")) {
+        console.error("❌ PROBLEMA DETECTADO: Path contém 'I' em vez de '1'");
+        console.error("Path problemático:", targetPath);
+      }
+      
+      window.location.href = targetPath;
     } else if (filteredPages.length === 0) {
       alert("Página não encontrada!");
+    } else {
+      console.log("Múltiplos resultados encontrados");
     }
+  };
+
+  const handleResultClick = (path: string, name: string) => {
+    console.log("=== RESULT CLICK DEBUG ===");
+    console.log("Clicked name:", name);
+    console.log("Clicked path:", path);
+    console.log("Path analysis:", {
+      fullPath: path,
+      characters: Array.from(path),
+      charCodes: Array.from(path).map(char => char.charCodeAt(0)),
+      endsWith: path[path.length - 1],
+      endsWithCharCode: path.charCodeAt(path.length - 1)
+    });
+
+    // Verificação específica para Octopath
+    if (name.includes("octopath")) {
+      console.log("🕵️ OCTOPATH SPECIFIC CHECK:");
+      console.log("Expected: /jogos/octopath-traveler-1");
+      console.log("Actual:  ", path);
+      console.log("Match:   ", path === "/jogos/octopath-traveler-1");
+      
+      if (path.includes("I") && !path.includes("1")) {
+        console.error("❌ CRITICAL: Octopath path has 'I' instead of '1'");
+      }
+    }
+
+    setShowResults(false);
+    setQuery("");
+    window.location.href = path;
   };
 
   return (
@@ -65,9 +151,11 @@ const SearchBar: React.FC<SearchBarProps> = ({ isSearching, setIsSearching }) =>
           placeholder="Pesquisar..."
           value={query}
           onChange={(e) => {
-            setQuery(e.target.value);
+            const newQuery = e.target.value;
+            console.log("📝 INPUT CHANGE:", newQuery);
+            setQuery(newQuery);
             setShowResults(true); 
-            setIsSearching(e.target.value.length > 0); // controla altura do header
+            setIsSearching(newQuery.length > 0);
           }}
           className="outline-none bg-transparent w-48 text-gray-900 dark:text-gray-200"
         />
@@ -80,14 +168,13 @@ const SearchBar: React.FC<SearchBarProps> = ({ isSearching, setIsSearching }) =>
         <div className="absolute top-full left-0 mt-1 w-full bg-white dark:bg-gray-800 border rounded shadow z-50">
           {filteredPages.length > 0 ? (
             filteredPages.map((p) => (
-              <a
+              <button
                 key={p.name}
-                href={p.path}
-                className="block px-4 py-2 hover:bg-pink-100 dark:hover:bg-gray-700"
-                onClick={() => setShowResults(false)}
+                onClick={() => handleResultClick(p.path, p.name)}
+                className="block w-full text-left px-4 py-2 hover:bg-pink-100 dark:hover:bg-gray-700"
               >
                 {p.name}
-              </a>
+              </button>
             ))
           ) : (
             <div className="px-4 py-2 text-gray-500 dark:text-gray-400">

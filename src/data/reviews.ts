@@ -13,8 +13,8 @@ export const reviews: Review[] = [
     note: 96,
     date: "2025-03-13",
     description: "Assim como em Kingdom Come: Deliverance, o protagonista é Henry, filho de um ferreiro, que vive na Boêmia Central durante a Idade Média, no início do século XV. O enredo segue diretamente do final do jogo anterior, e se passa na 'turbulência de uma guerra civil', onde Henry lutará contra o Sacro Imperador Romano Sigismundo e seus aliados. Isso concluirá sua história.",
-    path: "/jogos/Kingdom-Come-Deliverance",
-    assetPath: "/assets/25/KingdomCome/frontpage.png",
+    path: "/jogos/kingdom-come-deliverance-2",
+    assetPath: "/assets/25/KingdomComeImagem/frontpage.png",
   },
   {
     name: "Pokemon Glazed",
@@ -29,7 +29,7 @@ export const reviews: Review[] = [
     note: 88,
     date: "2025-03-20",
     description: "Esta é a história de uma garota que jurou vingança contra os monstros. Após perder sua casa, ela se une a um garoto misterioso e parte em direção ao desconhecido. Mas o que os aguarda no fim da jornada? Será a luz da esperança ou o desespero e a escuridão?",
-    path: "/jogos/Voice-Of-Cards-The-Beast-Of-Burden",
+    path: "/jogos/voice-of-cards-the-beast-of-burden",
     assetPath: "/assets/25/VoiceOfCardBB/frontpage.png",
   },
   {
@@ -85,7 +85,7 @@ export const reviews: Review[] = [
     note: 97,
     date: "2025-05-01",
     description: "Conduza os membros da Expedição 33 em uma missão para destruir a Artífice para que ela nunca mais possa pintar a morte. Explore um mundo inspirado na Belle Époque da França e enfrente inimigos únicos neste RPG em turnos com mecânicas em tempo real.",
-    path: "/jogos/Clair-Obscur-Expedition-33",
+    path: "/jogos/clair-obscur-expedition-33",
     assetPath: "/assets/25/Expedition33/frontpage.png",
   },
   {
@@ -185,11 +185,11 @@ export const reviews: Review[] = [
     assetPath: "/assets/25/Lostsoul/frontpage.png",
   },
   {
-    name: "OctoPath Traveler I",
+    name: "OctoPath Traveler 1",
     note: 95,
     date: "2025-09-29",
     description: "Oito viajantes. Oito aventuras. Oito personagens para jogar. Embarque em uma jornada épica pelo mundo de Orsterra e conheça as histórias cativantes de cada um dos oito viajantes.",
-    path: "/jogos/Octopath-Traveler-I",
+    path: "/jogos/Octopath-Traveler-1",
     assetPath: "/assets/25/octopath1/frontpage.png",
   },
   {

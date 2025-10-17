@@ -1,0 +1,36 @@
+[
+  {
+    "Nome Do Jogo": "Cities Skylane 2",
+    "Empresa": "Colossal",
+    "Ano de Lançamento": 2023,
+    "Situação": "Zerado",
+    "Plataforma": "PC",
+    "Gen1": "Simulação",
+    "Gen2": "Estrategia",
+    "Nacionalidade": "FINLANDIA",
+    "Mecanica": 90,
+    "Grafico ": "90",
+    "Trilha Sonora": 10,
+    "Historia": 10,
+    "Otimização": 60,
+    "Media": 52,
+    "Grafico": 90
+  },
+  {
+    "Nome Do Jogo": "Football Manager 24",
+    "Empresa": "Sports Interactive",
+    "Ano de Lançamento": 2023,
+    "Situação": "Zerado",
+    "Plataforma": "PC",
+    "Gen1": "Esporte",
+    "Gen2": "Simulação",
+    "Nacionalidade": "REINO UNIDO",
+    "Mecanica": 100,
+    "Grafico ": "81",
+    "Trilha Sonora": 60,
+    "Historia": 93,
+    "Otimização": 86,
+    "Media": 84,
+    "Grafico": 81
+  }
+]
