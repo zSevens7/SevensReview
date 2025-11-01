@@ -9,12 +9,11 @@
     "Gen2": "Estrategia",
     "Nacionalidade": "FINLANDIA",
     "Mecanica": 90,
-    "Grafico ": "90",
-    "Trilha Sonora": 10,
-    "Historia": 10,
+    "Grafico": 90,
+    "Trilha Sonora": 30,
+    "Historia": 30,
     "Otimização": 60,
-    "Media": 52,
-    "Grafico": 90
+    "Media": 60
   },
   {
     "Nome Do Jogo": "Football Manager 24",
@@ -26,11 +25,10 @@
     "Gen2": "Simulação",
     "Nacionalidade": "REINO UNIDO",
     "Mecanica": 100,
-    "Grafico ": "81",
+    "Grafico": 81,
     "Trilha Sonora": 60,
     "Historia": 93,
     "Otimização": 86,
-    "Media": 84,
-    "Grafico": 81
+    "Media": 84
   }
 ]

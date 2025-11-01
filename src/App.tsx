@@ -3,21 +3,26 @@ import { BrowserRouter } from "react-router-dom";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import ListReviewRoutes from "./routes/ListReview.routes";
+import { HelmetProvider } from 'react-helmet-async'; // <--- NOVO IMPORT AQUI
 
 function App() {
   return (
-    <BrowserRouter>
-      {/* Header global do site */}
-      <Header />
+    // O HelmetProvider DEVE envolver todos os componentes que usam o Helmet,
+    // garantindo que o contexto seja passado, mesmo em lazy loading.
+    <HelmetProvider> 
+      <BrowserRouter>
+        {/* Header global do site */}
+        <Header />
 
-      {/* Conteúdo das páginas */}
-      <main className="flex-1">
-        <ListReviewRoutes />
-      </main>
+        {/* Conteúdo das páginas */}
+        <main className="flex-1">
+          <ListReviewRoutes />
+        </main>
 
-      {/* Footer global do site */}
-      <Footer />
-    </BrowserRouter>
+        {/* Footer global do site */}
+        <Footer />
+      </BrowserRouter>
+    </HelmetProvider> // <--- FECHAMENTO AQUI
   );
 }
 

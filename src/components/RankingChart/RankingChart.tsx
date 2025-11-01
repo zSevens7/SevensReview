@@ -40,8 +40,8 @@ export const RankingChart: React.FC<Props> = ({ jogos }) => {
 
   const toggleHidden = (type: "country" | "platform" | "genre", name: string) => {
     const map = type === "country" ? new Set(hiddenCountries) :
-                type === "platform" ? new Set(hiddenPlatforms) :
-                new Set(hiddenGenres);
+      type === "platform" ? new Set(hiddenPlatforms) :
+      new Set(hiddenGenres);
 
     if (map.has(name)) map.delete(name);
     else map.add(name);
@@ -53,26 +53,36 @@ export const RankingChart: React.FC<Props> = ({ jogos }) => {
 
   const renderLegend = (type: "country" | "platform" | "genre") => {
     const data = type === "country" ? countryData :
-                 type === "platform" ? platformData :
-                 genreData;
+                   type === "platform" ? platformData :
+                   genreData;
     return (
       <div className="flex flex-wrap justify-center mt-2 gap-2">
-        {data.map((entry, index) => (
-          <span
-            key={index}
-            onClick={() => toggleHidden(type, entry.name)}
-            className={`cursor-pointer text-sm px-2 py-1 rounded border`}
-            style={{
-              backgroundColor: "#fff",
-              color: COLORS[index % COLORS.length],
-              opacity: type === "country" ? (hiddenCountries.has(entry.name) ? 0.3 : 1) :
-                       type === "platform" ? (hiddenPlatforms.has(entry.name) ? 0.3 : 1) :
-                       hiddenGenres.has(entry.name) ? 0.3 : 1,
-            }}
-          >
-            {entry.name} ({entry.value})
-          </span>
-        ))}
+        {data.map((entry, index) => {
+          const isHidden = type === "country" ? hiddenCountries.has(entry.name) :
+                           type === "platform" ? hiddenPlatforms.has(entry.name) :
+                           hiddenGenres.has(entry.name);
+
+          // Classes para o fundo:
+          // bg-gray-100 para o modo claro (light)
+          // dark:bg-white para o modo escuro (dark)
+          const backgroundClasses = "bg-gray-100 dark:bg-white";
+
+          return (
+            <span
+              key={index}
+              onClick={() => toggleHidden(type, entry.name)}
+              className={`cursor-pointer text-sm px-2 py-1 rounded border ${backgroundClasses}`}
+              style={{
+                // Usamos a cor primária (do COLORS) para a cor do texto e da borda.
+                borderColor: COLORS[index % COLORS.length],
+                color: COLORS[index % COLORS.length],
+                opacity: isHidden ? 0.3 : 1,
+              }}
+            >
+              {entry.name} ({entry.value})
+            </span>
+          );
+        })}
       </div>
     );
   };

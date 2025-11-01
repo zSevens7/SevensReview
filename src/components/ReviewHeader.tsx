@@ -1,8 +1,10 @@
+// src/components/ReviewHeader.tsx
 import React from "react";
 
 interface ReviewHeaderProps {
   title: string;
   coverImage: string;
+  backgroundImage?: string; // ✅ Novo: imagem opcional de fundo
   logo?: string;
   subtitle?: string;
   rating: number;
@@ -28,6 +30,7 @@ const getRatingColor = (rating: number) => {
 const ReviewHeader: React.FC<ReviewHeaderProps> = ({
   title,
   coverImage,
+  backgroundImage, // ✅ novo prop opcional
   logo,
   subtitle,
   rating,
@@ -45,13 +48,14 @@ const ReviewHeader: React.FC<ReviewHeaderProps> = ({
                  dark:from-blue-950 dark:via-blue-900 dark:to-blue-700
                  p-4 md:p-6 mx-2 md:mx-8 text-gray-900 dark:text-white"
     >
-      {/* Capa de fundo com opacidade e blur */}
+      {/* Fundo com opacidade e blur */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-20 blur-sm"
-        style={{ backgroundImage: `url(${coverImage})` }}
+        style={{ backgroundImage: `url(${backgroundImage || coverImage})` }}
       />
+
       <div className="relative flex flex-col md:flex-row items-center md:items-start gap-6 z-10">
-        {/* Logo / Imagem */}
+        {/* Logo ou Capa principal */}
         <div className="rounded-s-xl overflow-hidden shadow-lg bg-white/30 dark:bg-white/10 backdrop-blur-md">
           <img
             src={logo || coverImage}
@@ -60,7 +64,7 @@ const ReviewHeader: React.FC<ReviewHeaderProps> = ({
           />
         </div>
 
-        {/* Infos */}
+        {/* Informações principais */}
         <div className="flex-1 flex flex-col gap-2">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight">{title}</h1>
 
@@ -75,14 +79,28 @@ const ReviewHeader: React.FC<ReviewHeaderProps> = ({
           {developer && (
             <div className="flex items-center gap-2 mt-2 text-sm md:text-base">
               {developer.countryFlag && (
-                <img src={developer.countryFlag} alt={developer.name} className="w-5 h-5 object-contain" />
+                <img
+                  src={developer.countryFlag}
+                  alt={developer.name}
+                  className="w-5 h-5 object-contain"
+                />
               )}
               <span>Desenvolvedor(a): {developer.name}</span>
             </div>
           )}
 
-          {publisher && <span className="text-sm md:text-base mt-1 opacity-90">Publicadora: {publisher}</span>}
-          {engine && <span className="text-sm md:text-base mt-1 opacity-90">Engine: {engine}</span>}
+          {publisher && (
+            <span className="text-sm md:text-base mt-1 opacity-90">
+              Publicadora: {publisher}
+            </span>
+          )}
+
+          {engine && (
+            <span className="text-sm md:text-base mt-1 opacity-90">
+              Engine: {engine}
+            </span>
+          )}
+
           {platforms && (
             <span className="text-sm md:text-base mt-1 opacity-90">
               Plataformas: {platforms.join(", ")}
@@ -90,7 +108,9 @@ const ReviewHeader: React.FC<ReviewHeaderProps> = ({
           )}
 
           {subtitle && (
-            <p className="mt-3 text-gray-700 dark:text-gray-300 italic hidden md:block">{subtitle}</p>
+            <p className="mt-3 text-gray-700 dark:text-gray-300 italic hidden md:block">
+              {subtitle}
+            </p>
           )}
         </div>
       </div>

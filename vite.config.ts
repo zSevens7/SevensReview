@@ -1,3 +1,5 @@
+// vite.config.ts
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
@@ -9,6 +11,9 @@ const __dirname = path.dirname(__filename)
 
 // https://vite.dev/config/
 export default defineConfig({
+  // ADICIONE ESTA LINHA:
+  base: '/', 
+  // O restante do seu código...
   plugins: [react()],
   resolve: {
     alias: {

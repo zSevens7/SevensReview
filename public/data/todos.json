@@ -9,12 +9,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "REPUBLICA TCHECA",
     "Mecanica": 90,
-    "Grafico ": "90",
+    "Grafico": 90,
     "Trilha Sonora": 80,
     "Historia": 100,
     "Otimização": 100,
-    "Media": 92,
-    "Grafico": 90
+    "Media": 92
   },
   {
     "Nome Do Jogo": "Cities Skylane 2",
@@ -26,12 +25,11 @@
     "Gen2": "Estrategia",
     "Nacionalidade": "FINLANDIA",
     "Mecanica": 90,
-    "Grafico ": "90",
-    "Trilha Sonora": 10,
-    "Historia": 10,
+    "Grafico": 90,
+    "Trilha Sonora": 30,
+    "Historia": 30,
     "Otimização": 60,
-    "Media": 52,
-    "Grafico": 90
+    "Media": 60
   },
   {
     "Nome Do Jogo": "Going Medieval",
@@ -43,12 +41,11 @@
     "Gen2": "Estrategia",
     "Nacionalidade": "SERVIA",
     "Mecanica": 70,
-    "Grafico ": "40",
+    "Grafico": 40,
     "Trilha Sonora": 30,
     "Historia": 75,
     "Otimização": 100,
-    "Media": 63,
-    "Grafico": 40
+    "Media": 63
   },
   {
     "Nome Do Jogo": "Cyberpunk 2077",
@@ -60,12 +57,11 @@
     "Gen2": "FPS",
     "Nacionalidade": "POLONIA",
     "Mecanica": 0,
-    "Grafico ": "0",
+    "Grafico": 0,
     "Trilha Sonora": 0,
     "Historia": 0,
     "Otimização": 0,
-    "Media": 0,
-    "Grafico": 0
+    "Media": 0
   },
   {
     "Nome Do Jogo": "Tokyo Xtreme Racer",
@@ -77,12 +73,11 @@
     "Gen2": "Arcade",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 85,
-    "Grafico ": "75",
+    "Grafico": 75,
     "Trilha Sonora": 60,
     "Historia": 60,
     "Otimização": 100,
-    "Media": 76,
-    "Grafico": 75
+    "Media": 76
   },
   {
     "Nome Do Jogo": "Kingdom Come:Deliverance 2",
@@ -94,12 +89,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "REPUBLICA TCHECA",
     "Mecanica": 95,
-    "Grafico ": "100",
+    "Grafico": 100,
     "Trilha Sonora": 85,
     "Historia": 100,
     "Otimização": 100,
-    "Media": 96,
-    "Grafico": 100
+    "Media": 96
   },
   {
     "Nome Do Jogo": "Like a Dragon: Pirate Yakuza in Hawaii",
@@ -111,12 +105,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 100,
-    "Grafico ": "95",
+    "Grafico": 95,
     "Trilha Sonora": 85,
     "Historia": 70,
     "Otimização": 100,
-    "Media": 90,
-    "Grafico": 95
+    "Media": 90
   },
   {
     "Nome Do Jogo": "Pokemon PRISM",
@@ -128,12 +121,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 100,
-    "Grafico ": "90",
+    "Grafico": 90,
     "Trilha Sonora": 90,
     "Historia": 70,
     "Otimização": 70,
-    "Media": 84,
-    "Grafico": 90
+    "Media": 84
   },
   {
     "Nome Do Jogo": "Pokemon Glazed",
@@ -145,12 +137,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 85,
-    "Grafico ": "85",
+    "Grafico": 85,
     "Trilha Sonora": 80,
     "Historia": 95,
     "Otimização": 90,
-    "Media": 87,
-    "Grafico": 85
+    "Media": 87
   },
   {
     "Nome Do Jogo": "Voice of Cards: The Beasts of Burdern",
@@ -162,12 +153,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 90,
-    "Grafico ": "75",
+    "Grafico": 75,
     "Trilha Sonora": 85,
     "Historia": 100,
     "Otimização": 90,
-    "Media": 88,
-    "Grafico": 75
+    "Media": 88
   },
   {
     "Nome Do Jogo": "Assassin's Creed Shadows",
@@ -179,12 +169,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "CANADA",
     "Mecanica": 100,
-    "Grafico ": "100",
+    "Grafico": 100,
     "Trilha Sonora": 70,
     "Historia": 40,
     "Otimização": 95,
-    "Media": 81,
-    "Grafico": 100
+    "Media": 81
   },
   {
     "Nome Do Jogo": "inZOI",
@@ -196,12 +185,11 @@
     "Gen2": "Estrategia",
     "Nacionalidade": "COREIA-DO-SUL",
     "Mecanica": 80,
-    "Grafico ": "100",
+    "Grafico": 100,
     "Trilha Sonora": 60,
     "Historia": 70,
     "Otimização": 95,
-    "Media": 81,
-    "Grafico": 100
+    "Media": 81
   },
   {
     "Nome Do Jogo": "Pokemon Yellow Legacy",
@@ -213,12 +201,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 85,
-    "Grafico ": "80",
+    "Grafico": 80,
     "Trilha Sonora": 80,
     "Historia": 85,
     "Otimização": 100,
-    "Media": 86,
-    "Grafico": 80
+    "Media": 86
   },
   {
     "Nome Do Jogo": "Pokemon Polished Crystal",
@@ -230,12 +217,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 100,
-    "Grafico ": "100",
+    "Grafico": 100,
     "Trilha Sonora": 80,
     "Historia": 100,
     "Otimização": 100,
-    "Media": 96,
-    "Grafico": 100
+    "Media": 96
   },
   {
     "Nome Do Jogo": "Football Life Simulator",
@@ -247,12 +233,11 @@
     "Gen2": "Esporte",
     "Nacionalidade": "TURQUIA",
     "Mecanica": 75,
-    "Grafico ": "65",
+    "Grafico": 65,
     "Trilha Sonora": 65,
     "Historia": 80,
     "Otimização": 80,
-    "Media": 73,
-    "Grafico": 65
+    "Media": 73
   },
   {
     "Nome Do Jogo": "Runescape Dragonwilds",
@@ -264,12 +249,11 @@
     "Gen2": "Sobrevivencia",
     "Nacionalidade": "REINO UNIDO",
     "Mecanica": 75,
-    "Grafico ": "80",
+    "Grafico": 80,
     "Trilha Sonora": 65,
     "Historia": 70,
     "Otimização": 85,
-    "Media": 75,
-    "Grafico": 80
+    "Media": 75
   },
   {
     "Nome Do Jogo": "Clair Obscur: Expedition 33",
@@ -281,12 +265,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "FRANÇA",
     "Mecanica": 95,
-    "Grafico ": "95",
+    "Grafico": 95,
     "Trilha Sonora": 100,
     "Historia": 95,
     "Otimização": 100,
-    "Media": 97,
-    "Grafico": 95
+    "Media": 97
   },
   {
     "Nome Do Jogo": "Super Mario 3D LAND",
@@ -298,12 +281,11 @@
     "Gen2": "Puzzle",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 95,
-    "Grafico ": "100",
+    "Grafico": 100,
     "Trilha Sonora": 80,
     "Historia": 65,
     "Otimização": 100,
-    "Media": 88,
-    "Grafico": 100
+    "Media": 88
   },
   {
     "Nome Do Jogo": "Doom: The Dark Ages",
@@ -315,12 +297,11 @@
     "Gen2": "Arcade",
     "Nacionalidade": "EUA",
     "Mecanica": 100,
-    "Grafico ": "85",
+    "Grafico": 85,
     "Trilha Sonora": 85,
     "Historia": 80,
     "Otimização": 100,
-    "Media": 90,
-    "Grafico": 85
+    "Media": 90
   },
   {
     "Nome Do Jogo": "SurrounDead",
@@ -332,12 +313,11 @@
     "Gen2": "Sobrevivencia",
     "Nacionalidade": "EUA",
     "Mecanica": 90,
-    "Grafico ": "80",
+    "Grafico": 80,
     "Trilha Sonora": 60,
     "Historia": 65,
     "Otimização": 95,
-    "Media": 78,
-    "Grafico": 80
+    "Media": 78
   },
   {
     "Nome Do Jogo": "F1 2025",
@@ -349,12 +329,11 @@
     "Gen2": "Simulação",
     "Nacionalidade": "REINO UNIDO",
     "Mecanica": 85,
-    "Grafico ": "95",
+    "Grafico": 95,
     "Trilha Sonora": 80,
     "Historia": 75,
     "Otimização": 100,
-    "Media": 87,
-    "Grafico": 95
+    "Media": 87
   },
   {
     "Nome Do Jogo": "Rune Factory 4",
@@ -366,12 +345,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 70,
-    "Grafico ": "70",
+    "Grafico": 70,
     "Trilha Sonora": 60,
     "Historia": 70,
     "Otimização": 90,
-    "Media": 72,
-    "Grafico": 70
+    "Media": 72
   },
   {
     "Nome Do Jogo": "Football Manager 24",
@@ -383,12 +361,11 @@
     "Gen2": "Simulação",
     "Nacionalidade": "REINO UNIDO",
     "Mecanica": 100,
-    "Grafico ": "81",
+    "Grafico": 81,
     "Trilha Sonora": 60,
     "Historia": 93,
     "Otimização": 86,
-    "Media": 84,
-    "Grafico": 81
+    "Media": 84
   },
   {
     "Nome Do Jogo": "Pokemon Emerald Legacy",
@@ -400,12 +377,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 88,
-    "Grafico ": "90",
+    "Grafico": 90,
     "Trilha Sonora": 82,
     "Historia": 94,
     "Otimização": 99,
-    "Media": 90,
-    "Grafico": 90
+    "Media": 90
   },
   {
     "Nome Do Jogo": "PEAK",
@@ -417,12 +393,11 @@
     "Gen2": "Sobrevivencia",
     "Nacionalidade": "SUÉCIA",
     "Mecanica": 75,
-    "Grafico ": "76",
+    "Grafico": 76,
     "Trilha Sonora": 55,
     "Historia": 60,
     "Otimização": 88,
-    "Media": 70,
-    "Grafico": 76
+    "Media": 70
   },
   {
     "Nome Do Jogo": "Death Strading 2: On the Beach",
@@ -434,12 +409,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 94,
-    "Grafico ": "100",
+    "Grafico": 100,
     "Trilha Sonora": 92,
     "Historia": 99,
     "Otimização": 99,
-    "Media": 96,
-    "Grafico": 100
+    "Media": 96
   },
   {
     "Nome Do Jogo": "Demon Slayer 2",
@@ -451,12 +425,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 88,
-    "Grafico ": "94",
+    "Grafico": 94,
     "Trilha Sonora": 75,
     "Historia": 83,
     "Otimização": 95,
-    "Media": 87,
-    "Grafico": 94
+    "Media": 87
   },
   {
     "Nome Do Jogo": "Dokimon: Quest",
@@ -468,12 +441,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 74,
-    "Grafico ": "98",
+    "Grafico": 98,
     "Trilha Sonora": 75,
     "Historia": 80,
     "Otimização": 98,
-    "Media": 85,
-    "Grafico": 98
+    "Media": 85
   },
   {
     "Nome Do Jogo": "Lost Soul Aside",
@@ -485,12 +457,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "CHINA",
     "Mecanica": 88,
-    "Grafico ": "73",
+    "Grafico": 73,
     "Trilha Sonora": 60,
     "Historia": 30,
     "Otimização": 99,
-    "Media": 70,
-    "Grafico": 73
+    "Media": 70
   },
   {
     "Nome Do Jogo": "Octopath Traveler",
@@ -502,12 +473,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 90,
-    "Grafico ": "100",
+    "Grafico": 100,
     "Trilha Sonora": 90,
     "Historia": 99,
     "Otimização": 96,
-    "Media": 95,
-    "Grafico": 100
+    "Media": 95
   },
   {
     "Nome Do Jogo": "Digimon Story Time Stranger",
@@ -519,12 +489,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 100,
-    "Grafico ": "97",
+    "Grafico": 97,
     "Trilha Sonora": 88,
     "Historia": 100,
     "Otimização": 100,
-    "Media": 97,
-    "Grafico": 97
+    "Media": 97
   },
   {
     "Nome Do Jogo": "",
@@ -536,12 +505,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -553,12 +521,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -570,12 +537,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -587,12 +553,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -604,12 +569,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -621,12 +585,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -638,12 +601,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -655,12 +617,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -672,12 +633,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -689,12 +649,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -706,12 +665,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -723,12 +681,11 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   },
   {
     "Nome Do Jogo": "",
@@ -740,11 +697,10 @@
     "Gen2": "",
     "Nacionalidade": "",
     "Mecanica": "",
-    "Grafico ": "",
+    "Grafico": "",
     "Trilha Sonora": "",
     "Historia": "",
     "Otimização": "",
-    "Media": null,
-    "Grafico": ""
+    "Media": null
   }
 ]

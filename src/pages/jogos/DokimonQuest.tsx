@@ -119,7 +119,7 @@ const DokimonQuest: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON MECANICA 01.png" 
+              src="/assets/25/Dokimon/DOKIMON MECANICA 01.png" 
               alt="Mecânica do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg mb-4"
             />
@@ -135,7 +135,7 @@ const DokimonQuest: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON MECANICA 02.png" 
+              src="/assets/25/Dokimon/DOKIMON MECANICA 02.png" 
               alt="Mecânica do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg mb-4"
             />
@@ -158,7 +158,7 @@ const DokimonQuest: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON GRAFICO 01.png" 
+              src="/assets/25/Dokimon/DOKIMON GRAFICO 01.png" 
               alt="Gráficos do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg mb-4"
             />
@@ -168,7 +168,7 @@ const DokimonQuest: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON GRAFICO 02.png" 
+              src="/assets/25/Dokimon/DOKIMON GRAFICO 02.png" 
               alt="Gráficos do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg mb-4"
             />
@@ -185,7 +185,7 @@ const DokimonQuest: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON TRILHA SONORA 01.png" 
+              src="/assets/25/Dokimon/DOKIMON TRILHA SONORA 01.png" 
               alt="Trilha Sonora do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg"
             />
@@ -198,7 +198,7 @@ const DokimonQuest: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON HISTORIA 01.png" 
+              src="/assets/25/Dokimon/DOKIMON HISTORIA 01.png" 
               alt="História do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg mb-4"
             />
@@ -211,7 +211,7 @@ const DokimonQuest: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON HISTORIA 02.png" 
+              src="/assets/25/Dokimon/DOKIMON HISTORIA 02.png" 
               alt="História do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg mt-4"
             />
@@ -224,7 +224,7 @@ const DokimonQuest: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON ACESS 01.png" 
+              src="/assets/25/Dokimon/DOKIMON ACESS 01.png" 
               alt="Otimização do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg mb-4"
             />
@@ -234,7 +234,7 @@ const DokimonQuest: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON ACESS 02.png" 
+              src="/assets/25/Dokimon/DOKIMON ACESS 02.png" 
               alt="Otimização do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg mb-4"
             />
@@ -244,13 +244,13 @@ const DokimonQuest: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON ACESS 03.png" 
+              src="/assets/25/Dokimon/DOKIMON ACESS 03.png" 
               alt="Otimização do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg mb-4"
             />
             
             <GameImage 
-              src="/assets/25/DokimonQuest/DOKIMON ACESS 04.png" 
+              src="/assets/25/Dokimon/DOKIMON ACESS 04.png" 
               alt="Otimização do jogo" 
               className="max-w-xs md:max-w-md lg:max-w-lg"
             />
@@ -268,13 +268,13 @@ const DokimonQuest: React.FC = () => {
               </p>
               
               <GameImage 
-                src="/assets/25/DokimonQuest/DOKIMON VEREDITO 01.png" 
+                src="/assets/25/Dokimon/DOKIMON VEREDITO 01.png" 
                 alt="Dokimons usados" 
                 className="max-w-xs md:max-w-md lg:max-w-lg mb-4"
               />
               
               <GameImage 
-                src="/assets/25/DokimonQuest/DOKIMON VEREDITO 02.png" 
+                src="/assets/25/Dokimon/DOKIMON VEREDITO 02.png" 
                 alt="Dokimons usados" 
                 className="max-w-xs md:max-w-md lg:max-w-lg mb-4"
               />

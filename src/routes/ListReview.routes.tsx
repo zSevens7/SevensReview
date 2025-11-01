@@ -31,6 +31,8 @@ const GuiaDeReview = lazy(() => import('../pages/GuiaDeReview'));
 const Setup = lazy(() => import('../pages/Setup'));
 const RankingAno = lazy(() => import('../pages/RankingAno'));
 const RankingGeral = lazy(() => import('../pages/RankingGeral'));
+const GhostOfYotei = lazy(() => import('../pages/jogos/GhostOfYotei'));
+
 
 const ListReviewRoutes: React.FC = () => (
   <Suspense fallback={<div>Carregando página...</div>}>
@@ -67,6 +69,8 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/setup" element={<Setup />} />
       <Route path="/ranking-ano" element={<RankingAno />} />
       <Route path="/ranking-geral" element={<RankingGeral />} />
+      <Route path="/jogos/ghost-of-yotei" element={<GhostOfYotei />} />
+
 
      
     </Routes>

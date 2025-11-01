@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
   useReactTable,
   getCoreRowModel,
@@ -12,47 +12,36 @@ import { Jogo } from "./types";
 
 interface Props {
   ano: string; // exemplo: "2025" ou "todos"
+  jogos: Jogo[]; // array de jogos já filtrados
 }
 
 interface ColumnMetaExtra {
   hideOnMobile?: boolean;
 }
 
-export const RankingTable: React.FC<Props> = ({ ano }) => {
-  const [dados, setDados] = useState<Jogo[]>([]);
+export const RankingTable: React.FC<Props> = ({ ano, jogos }) => {
   const [sorting, setSorting] = useState<SortingState>([]);
   const [pagination, setPagination] = useState({ pageIndex: 0, pageSize: 20 });
 
-  // Carregar JSON
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const url = ano === "todos" ? "/data/todos.json" : `/data/${ano}.json`;
-        const res = await fetch(url);
-        const json: Jogo[] = await res.json();
-        setDados(json.filter((j) => j["Situação"]?.trim() === "Zerado"));
-        setPagination({ pageIndex: 0, pageSize: 20 }); // resetar página ao trocar de ano
-      } catch (err) {
-        console.error("Erro ao carregar JSON:", err);
-      }
-    };
-    fetchData();
-  }, [ano]);
+  // DEBUG
+  console.log("RankingTable recebido:", { ano, jogos });
 
-  // Colunas
+  const dados = jogos; // usa os jogos recebidos da prop
+
+  // Colunas da tabela
   const columns: ColumnDef<Jogo, any>[] = [
-    { header: "Nome Do Jogo", accessorKey: "Nome Do Jogo" }, // sempre visível
-    { header: "Plataforma", accessorKey: "Plataforma" }, // sempre visível
-    { header: "Ano de Lançamento", accessorKey: "Ano de Lançamento" }, // sempre visível
+    { header: "Nome Do Jogo", accessorKey: "Nome Do Jogo" },
+    { header: "Plataforma", accessorKey: "Plataforma" },
+    { header: "Ano de Lançamento", accessorKey: "Ano de Lançamento" },
     { header: "Gen1", accessorKey: "Gen1", meta: { hideOnMobile: true } },
     { header: "Gen2", accessorKey: "Gen2", meta: { hideOnMobile: true } },
     { header: "Nacionalidade", accessorKey: "Nacionalidade", meta: { hideOnMobile: true } },
     { header: "Mecânica", accessorKey: "Mecanica", meta: { hideOnMobile: true } },
-    { header: "Gráfico", accessorKey: "Grafico ", meta: { hideOnMobile: true } },
+    { header: "Gráfico", accessorKey: "Grafico" },
     { header: "Trilha Sonora", accessorKey: "Trilha Sonora", meta: { hideOnMobile: true } },
     { header: "História", accessorKey: "Historia", meta: { hideOnMobile: true } },
     { header: "Otimização", accessorKey: "Otimização", meta: { hideOnMobile: true } },
-    { header: "Média", accessorKey: "Media" }, // sempre visível
+    { header: "Média", accessorKey: "Media" },
   ];
 
   const table = useReactTable({

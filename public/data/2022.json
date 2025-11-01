@@ -9,12 +9,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 100,
-    "Grafico ": "90",
+    "Grafico": 90,
     "Trilha Sonora": 90,
     "Historia": 70,
     "Otimização": 70,
-    "Media": 84,
-    "Grafico": 90
+    "Media": 84
   },
   {
     "Nome Do Jogo": "Pokemon Glazed",
@@ -26,12 +25,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 85,
-    "Grafico ": "85",
+    "Grafico": 85,
     "Trilha Sonora": 80,
     "Historia": 95,
     "Otimização": 90,
-    "Media": 87,
-    "Grafico": 85
+    "Media": 87
   },
   {
     "Nome Do Jogo": "Voice of Cards: The Beasts of Burdern",
@@ -43,11 +41,10 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 90,
-    "Grafico ": "75",
+    "Grafico": 75,
     "Trilha Sonora": 85,
     "Historia": 100,
     "Otimização": 90,
-    "Media": 88,
-    "Grafico": 75
+    "Media": 88
   }
 ]

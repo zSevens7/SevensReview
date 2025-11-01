@@ -9,12 +9,11 @@
     "Gen2": "Aventura",
     "Nacionalidade": "REPUBLICA TCHECA",
     "Mecanica": 90,
-    "Grafico ": "90",
+    "Grafico": 90,
     "Trilha Sonora": 80,
     "Historia": 100,
     "Otimização": 100,
-    "Media": 92,
-    "Grafico": 90
+    "Media": 92
   },
   {
     "Nome Do Jogo": "Octopath Traveler",
@@ -26,11 +25,10 @@
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Mecanica": 90,
-    "Grafico ": "100",
+    "Grafico": 100,
     "Trilha Sonora": 90,
     "Historia": 99,
     "Otimização": 96,
-    "Media": 95,
-    "Grafico": 100
+    "Media": 95
   }
 ]

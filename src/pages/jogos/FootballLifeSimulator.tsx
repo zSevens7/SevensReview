@@ -119,7 +119,7 @@ const FootballLifeSimulator: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/FootballLsimulator/footballLS01.png" 
+              src="/assets/25/FootballLSimulator/footballLS01.png" 
               alt="Imagem do football life simulator" 
               className="max-w-xs md:max-w-md lg:max-w-lg"
             />
@@ -132,7 +132,7 @@ const FootballLifeSimulator: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/FootballLsimulator/footballLS02.png" 
+              src="/assets/25/FootballLSimulator/footballLS02.png" 
               alt="Imagem de football life simulator" 
               className="max-w-xs md:max-w-md lg:max-w-lg"
             />
@@ -145,7 +145,7 @@ const FootballLifeSimulator: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/FootballLsimulator/footballLS03.png" 
+              src="/assets/25/FootballLSimulator/footballLS03.png" 
               alt="Imagem de football life simulator" 
               className="max-w-xs md:max-w-md lg:max-w-lg"
             />
@@ -158,7 +158,7 @@ const FootballLifeSimulator: React.FC = () => {
             </p>
             
             <GameImage 
-              src="/assets/25/FootballLsimulator/footballLS04.png" 
+              src="/assets/25/FootballLSimulator/footballLS04.png" 
               alt="Imagem de football life simulator" 
               className="max-w-xs md:max-w-md lg:max-w-lg"
             />

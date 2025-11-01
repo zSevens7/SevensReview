@@ -408,4 +408,23 @@ export const gamesData = [
     engine: "",
     platforms: ["Nintendo Switch", "PlayStation 4", "Steam", "Android", "iOS"],
   },
+
+  {
+  slug: "ghost-of-yotei",
+  title: "Ghost of Yōtei",
+  subtitle: "Do legado ao renascimento: Ghost of Yōtei em destaque",
+  rating: 96,
+  coverImage: "assets/25/GhostOfYotei/yotei_grafico_01.jpg",
+  logo: "/assets/25/GhostOfYotei/frontpage.png",
+  genre: "Hack and Slash / Aventura",
+  releaseDate: "2025-10-02",
+  developer: {
+    name: "Sucker Punch Productions",
+    countryFlag: "/assets/flags/usa.png",
+  },
+  publisher: "Sony Interactive Entertainment",
+  engine: "Sucker Punch Engine",
+  platforms: ["PlayStation 5"],
+},
+
 ];

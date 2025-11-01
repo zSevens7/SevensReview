@@ -9,7 +9,7 @@ export function getAvailableYears(): string[] {
       const match = path.match(/(\d{4})\.json$/);
       return match ? match[1] : null;
     })
-    .filter((y): y is string => y !== null) // filtra só strings válidas
+    .filter((y): y is string => y !== null);
 
   return years.sort(); // opcional: ordena em ordem crescente
 }
