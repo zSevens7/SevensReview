@@ -32,6 +32,7 @@ const Setup = lazy(() => import('../pages/Setup'));
 const RankingAno = lazy(() => import('../pages/RankingAno'));
 const RankingGeral = lazy(() => import('../pages/RankingGeral'));
 const GhostOfYotei = lazy(() => import('../pages/jogos/GhostOfYotei'));
+const FootballManager2026 = lazy(() => import('../pages/jogos/FootballManager2026'));
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -70,6 +71,7 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/ranking-ano" element={<RankingAno />} />
       <Route path="/ranking-geral" element={<RankingGeral />} />
       <Route path="/jogos/ghost-of-yotei" element={<GhostOfYotei />} />
+      <Route path="/jogos/football-manager-2026" element={<FootballManager2026 />} />
 
 
      

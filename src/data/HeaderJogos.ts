@@ -427,4 +427,24 @@ export const gamesData = [
   platforms: ["PlayStation 5"],
 },
 
+{
+  slug: "football-manager-2026",
+  title: "Football Manager 2026",
+  subtitle: "Melhor FM tactico e o pior FM de interface",
+  rating: 73,
+  coverImage: "/assets/25/FM26/coverpage.png",
+  logo: "/assets/25/FM26/frontpage.png",
+  genre: "Esporte / Simulação",
+  releaseDate: "2025-11-04",
+  developer: {
+    name: "Sports Interactive",
+    countryFlag: "/assets/flags/uk.png",
+  },
+  publisher: "SEGA",
+  engine: "Unity",
+  platforms: ["PC", "Mac", "Playstation 5", "Xbox", "Nintendo Switch 2", "Mobile( via Netflix e Apple)"],
+},
+
+
+
 ];

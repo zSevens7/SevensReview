@@ -238,5 +238,37 @@
     "Historia": 100,
     "Otimização": 100,
     "Media": 97
+  },
+  {
+    "Nome Do Jogo": "Ghost of Yotei",
+    "Empresa": "Sucker Punch",
+    "Ano de Lançamento": 2025,
+    "Situação": "Zerado",
+    "Plataforma": "PS5",
+    "Gen1": "HackSlash",
+    "Gen2": "Aventura",
+    "Nacionalidade": "EUA",
+    "Mecanica": 90,
+    "Grafico": 100,
+    "Trilha Sonora": 90,
+    "Historia": 100,
+    "Otimização": 100,
+    "Media": 96
+  },
+  {
+    "Nome Do Jogo": "Football Manager 26",
+    "Empresa": "Sports Interactive",
+    "Ano de Lançamento": 2025,
+    "Situação": "Zerado",
+    "Plataforma": "PC",
+    "Gen1": "Esporte",
+    "Gen2": "Simulação",
+    "Nacionalidade": "REINO UNIDO",
+    "Mecanica": 90,
+    "Grafico": 50,
+    "Trilha Sonora": 65,
+    "Historia": 80,
+    "Otimização": 80,
+    "Media": 73
   }
 ]

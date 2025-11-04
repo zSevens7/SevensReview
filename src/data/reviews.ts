@@ -203,10 +203,19 @@ export const reviews: Review[] = [
   {
   name: "Ghost of Yōtei",
   note: 96,
-  date: "2025-10-02",
+  date: "2025-10-31",
   description: "O sucessor espiritual de Ghost of Tsushima chega com uma nova protagonista e ambientação em Hokkaido. Em meio à Era Sengoku, Atsu embarca em uma jornada de vingança e redenção. Com visuais impressionantes, direção de arte refinada e combates intensos no estilo hack and slash, Ghost of Yōtei mantém o legado da franquia e eleva ainda mais o nível técnico e narrativo da série.",
   path: "/jogos/Ghost-of-Yotei",
   assetPath: "/assets/25/GhostOfYotei/frontpage.png",
 },
+
+  {
+    name: "Football Manager 2026",
+    note: 73,
+    date: "2025-11-04",
+    description: "Assim como nos títulos anteriores, Football Manager 2026 desafia os jogadores a gerenciar um clube de futebol profissional, cuidando de táticas, transferências, treinamentos e finanças.[4] O jogo rodará no motor Unity, uma mudança em relação ao motor personalizado usado nos títulos anteriores.Fonte: Wikipédia – descrição do que é o Football Manager.",
+    path: "/jogos/football-manager-2026",
+    assetPath: "/assets/25/FM2026/frontpage.png",
+  },
 
 ];

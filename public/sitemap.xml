@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página inicial -->
+  <url>
+    <loc>https://sevensreview.com.br/</loc>
+    <lastmod>2025-11-03</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Reviews individuais -->
+  <url><loc>https://sevensreview.com.br/jogos/assassin-creed-shadow</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/clair-obscur-expedition-33</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/death-stranding-2</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/demon-slayer-2</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/digimon-story-time-stranger</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/dokimon-quest</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/doom-the-dark-ages</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/f1-2025</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/football-life-simulator</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/football-manager-2024</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/inzoi</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/kingdom-come-deliverance-2</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/lost-soul-aside</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/octopath-traveler-1</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/peak</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/pokemon-emerald-legacy</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/pokemon-glazed</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/pokemon-polished-crystal</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/pokemon-yellow-legacy</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/rune-factory-4</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/runescape-dragonwilds</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/super-mario-3d-land</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/surroundead</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/voice-of-cards-the-beast-of-burden</loc></url>
+  <url><loc>https://sevensreview.com.br/jogos/ghost-of-yotei</loc></url>
+
+  <!-- Outras páginas -->
+  <url><loc>https://sevensreview.com.br/guia</loc></url>
+  <url><loc>https://sevensreview.com.br/setup</loc></url>
+  <url><loc>https://sevensreview.com.br/ranking-ano</loc></url>
+  <url><loc>https://sevensreview.com.br/ranking-geral</loc></url>
+</urlset>

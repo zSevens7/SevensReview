@@ -36,6 +36,8 @@ const pages: Page[] = [
   { name: "lost soul aside", path: "/jogos/lost-soul-aside" },
   { name: "octopath traveler 1", path: "/jogos/octopath-traveler-1" },
   { name: "digimon story time stranger", path: "/jogos/digimon-story-time-stranger" },
+  { name: "ghost of yotei", path: "/jogos/Ghost-of-Yotei"},
+  { name: "football manager 2026", path: "/jogos/football-manager-2026"},
 ];
 
 // Log inicial para verificar o array de páginas
