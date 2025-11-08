@@ -123,7 +123,7 @@ const FootballManager2026: React.FC = () => {
           </ReviewSection>
 
           {/* Gráficos */}
-          <ReviewSection title="Gráficos" rating={50} ratingColor="bg-green-800">
+          <ReviewSection title="Gráficos" rating={50} ratingColor="bg-red-800">
             <p className="mb-4">
               Enfim, chegamos ao polêmico gráfico. Eu diria que as partidas, os jogadores etc. melhoraram sim — o gráfico está bonito. Porém, por que essa nota tão negativa? É porque a nova interface ficou horrível, mas tão horrível que acabou afetando tanto a mecânica quanto a experiência geral do jogo.
             </p>

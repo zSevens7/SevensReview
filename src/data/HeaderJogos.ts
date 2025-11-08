@@ -445,6 +445,24 @@ export const gamesData = [
   platforms: ["PC", "Mac", "Playstation 5", "Xbox", "Nintendo Switch 2", "Mobile( via Netflix e Apple)"],
 },
 
+{
+  slug:"digimon-world-1",
+  title:"Digimon World 1",
+  subtitle: "Digimon World 1 é divertido, mas é possivel enjoar facilmente",
+  rating: 87,
+  coverImage: "/assets/25/DigimonWorld1/frontpage.png",
+  logo: "/assets/25/DigimonWorld1/frontpage.png",
+  genre: "RPG/Aventura",
+  releaseDate: "1999-01-28",
+  developer:{
+    name:"Bandai",
+    countryFlag:"/assets/flags/jp.png",
+  },
+  publisher: "Bandai",
+  engine: "Não sei",
+  platforms: ["PlayStation 1"],
+},
+
 
 
 ];

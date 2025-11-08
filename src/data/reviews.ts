@@ -218,4 +218,13 @@ export const reviews: Review[] = [
     assetPath: "/assets/25/FM2026/frontpage.png",
   },
 
+  {
+    name: "Digimon World 1",
+    note: 87,
+    date: "2025-11-07",
+    description: "Este Digimon foi um dos 5 primeiros jogos que recebi quando tive o meu primeiro PlayStation 1. Na época, era um dia muito especial: eu era criança e era Natal. Lembro que já tinha o Super Nintendo, mas não lembrava como ganhei o SN. Enfim, esse jogo também marca como o primeiro da franquia. Eu quis rejogar ele por causa do Digimon Story Time Stranger, que me deu vontade de reviver a experiência. Joguei uma versão hack de Digimon, feita para melhorar o grind de XP.",
+    path: "/jogos/digimon-world-1",
+    assetPath: "/assets/25/DigimonWorld1/frontpage.png",
+  },
+
 ];
