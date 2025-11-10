@@ -462,6 +462,24 @@ export const gamesData = [
   engine: "Não sei",
   platforms: ["PlayStation 1"],
 },
+{
+  slug: "cities-skylines-2",
+  title: "Cities: Skylines 2",
+  subtitle: "Cities: Skylines 2 apesenta melhorias significativas em relação ao seu antecessor, porém teve um lançamento desatroso.",
+  rating: 80,
+  coverImage: "/assets/25/CitiesSkylanes2/frontpage.png",
+  logo: "/assets/25/CitiesSkylanes2/frontpage.png",
+  genre: "Simulação/ Estratégia",
+  releaseDate: "2023-10-24",
+  developer: {
+    name: "Colossal Order",
+    countryFlag: "/assets/flags/finland.png"
+  },
+  publisher: "Paradox Interactive",
+  engine: "Unity",
+  platforms: ["Windows", "PlayStation 5", "Xbox Series X/S"]
+},
+
 
 
 

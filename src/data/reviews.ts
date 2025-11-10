@@ -226,5 +226,13 @@ export const reviews: Review[] = [
     path: "/jogos/digimon-world-1",
     assetPath: "/assets/25/DigimonWorld1/frontpage.png",
   },
+  {
+    name: "Cities Skylines 2",
+    note: 80,
+    date: "2025-11-09",
+    description: "Cities: Skylines é uma versão moderna dos simuladores de cidade clássicos. O jogo introduz novos elementos de jogabilidade para que você sinta a emoção e a dificuldade de criar e manter uma cidade de verdade, além de aprimorar os elementos clássicos da construção de cidades.",
+    path: "/jogos/cities-skylines-2",
+    assetPath: "/assets/25/CitiesSkylanes2/frontpage.png",
+  },
 
 ];

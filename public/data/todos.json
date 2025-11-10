@@ -26,10 +26,10 @@
     "Nacionalidade": "FINLANDIA",
     "Mecanica": 90,
     "Grafico": 90,
-    "Trilha Sonora": 30,
-    "Historia": 30,
-    "Otimização": 60,
-    "Media": 60
+    "Trilha Sonora": 60,
+    "Historia": 75,
+    "Otimização": 90,
+    "Media": 81
   },
   {
     "Nome Do Jogo": "Going Medieval",
@@ -381,7 +381,7 @@
     "Trilha Sonora": 82,
     "Historia": 94,
     "Otimização": 99,
-    "Media": 90
+    "Media": 90.6
   },
   {
     "Nome Do Jogo": "PEAK",
@@ -397,7 +397,7 @@
     "Trilha Sonora": 55,
     "Historia": 60,
     "Otimização": 88,
-    "Media": 70
+    "Media": 70.8
   },
   {
     "Nome Do Jogo": "Death Strading 2: On the Beach",
@@ -413,7 +413,7 @@
     "Trilha Sonora": 92,
     "Historia": 99,
     "Otimização": 99,
-    "Media": 96
+    "Media": 96.8
   },
   {
     "Nome Do Jogo": "Demon Slayer 2",
@@ -536,12 +536,12 @@
     "Gen1": "RPG",
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
-    "Mecanica": 85,
-    "Grafico": 100,
+    "Mecanica": 80,
+    "Grafico": 95,
     "Trilha Sonora": 85,
-    "Historia": 75,
+    "Historia": 80,
     "Otimização": 95,
-    "Media": 88
+    "Media": 87
   },
   {
     "Nome Do Jogo": "",

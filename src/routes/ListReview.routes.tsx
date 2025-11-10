@@ -34,6 +34,7 @@ const RankingGeral = lazy(() => import('../pages/RankingGeral'));
 const GhostOfYotei = lazy(() => import('../pages/jogos/GhostOfYotei'));
 const FootballManager2026 = lazy(() => import('../pages/jogos/FootballManager2026'));
 const DigimonWorld1 = lazy(() => import('../pages/jogos/DigimonWorld1'));
+const CitiesSkylanes2 = lazy(() => import('../pages/jogos/CitiesSkylanes2'));
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -74,6 +75,7 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/ghost-of-yotei" element={<GhostOfYotei />} />
       <Route path="/jogos/football-manager-2026" element={<FootballManager2026 />} />
       <Route path="/jogos/digimon-world-1" element={<DigimonWorld1 />} />
+      <Route path="/jogos/cities-skylines-2" element={<CitiesSkylanes2 />} />
 
 
      

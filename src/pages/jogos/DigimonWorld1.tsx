@@ -18,7 +18,7 @@ const DigimonWorld1: React.FC = () => {
   releaseDate: "1999-01-28",
   developer:{
     name:"Bandai",
-    countryFlag:"/assets/flags/jp.png",
+    countryFlag:"/assets/flags/japan.png",
   },
   publisher: "Bandai",
   engine: "Não sei",
