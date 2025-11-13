@@ -27,9 +27,9 @@
     "Mecanica": 90,
     "Grafico": 90,
     "Trilha Sonora": 60,
-    "Historia": 75,
+    "Historia": 70,
     "Otimização": 90,
-    "Media": 81
+    "Media": 80
   },
   {
     "Nome Do Jogo": "Going Medieval",
@@ -544,20 +544,20 @@
     "Media": 87
   },
   {
-    "Nome Do Jogo": "",
-    "Empresa": "",
-    "Ano de Lançamento": null,
-    "Situação": "",
-    "Plataforma": "",
-    "Gen1": "",
-    "Gen2": "",
-    "Nacionalidade": "",
-    "Mecanica": "",
-    "Grafico": "",
-    "Trilha Sonora": "",
-    "Historia": "",
-    "Otimização": "",
-    "Media": null
+    "Nome Do Jogo": "Dispatch",
+    "Empresa": "AdHoc Studio",
+    "Ano de Lançamento": 2025,
+    "Situação": "Zerado",
+    "Plataforma": "PC",
+    "Gen1": "Interativo",
+    "Gen2": "Estrategia",
+    "Nacionalidade": "EUA",
+    "Mecanica": 87,
+    "Grafico": 100,
+    "Trilha Sonora": 85,
+    "Historia": 100,
+    "Otimização": 98,
+    "Media": 94
   },
   {
     "Nome Do Jogo": "",

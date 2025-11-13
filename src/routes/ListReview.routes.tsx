@@ -1,3 +1,4 @@
+
 import React, { Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
@@ -35,6 +36,7 @@ const GhostOfYotei = lazy(() => import('../pages/jogos/GhostOfYotei'));
 const FootballManager2026 = lazy(() => import('../pages/jogos/FootballManager2026'));
 const DigimonWorld1 = lazy(() => import('../pages/jogos/DigimonWorld1'));
 const CitiesSkylanes2 = lazy(() => import('../pages/jogos/CitiesSkylanes2'));
+const Dispatch = lazy(() => import('../pages/jogos/Dispatch'));
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -76,6 +78,8 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/football-manager-2026" element={<FootballManager2026 />} />
       <Route path="/jogos/digimon-world-1" element={<DigimonWorld1 />} />
       <Route path="/jogos/cities-skylines-2" element={<CitiesSkylanes2 />} />
+      <Route path="/jogos/dispatch" element={<Dispatch />} />
+
 
 
      

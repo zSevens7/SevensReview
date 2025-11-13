@@ -38,6 +38,9 @@ const pages: Page[] = [
   { name: "digimon story time stranger", path: "/jogos/digimon-story-time-stranger" },
   { name: "ghost of yotei", path: "/jogos/Ghost-of-Yotei"},
   { name: "football manager 2026", path: "/jogos/football-manager-2026"},
+  { name: "digimon world 1", path: "/jogos/digimon-world-1"},
+  { name: "cities skylines 2", path: "/jogos/cities-skylines-2"},
+  { name: "dispatch", path: "/jogos/dispatch"},
 ];
 
 // Log inicial para verificar o array de páginas

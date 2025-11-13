@@ -270,5 +270,21 @@
     "Historia": 80,
     "Otimização": 80,
     "Media": 73
+  },
+  {
+    "Nome Do Jogo": "Dispatch",
+    "Empresa": "AdHoc Studio",
+    "Ano de Lançamento": 2025,
+    "Situação": "Zerado",
+    "Plataforma": "PC",
+    "Gen1": "Interativo",
+    "Gen2": "Estrategia",
+    "Nacionalidade": "EUA",
+    "Mecanica": 87,
+    "Grafico": 100,
+    "Trilha Sonora": 85,
+    "Historia": 100,
+    "Otimização": 98,
+    "Media": 94
   }
 ]

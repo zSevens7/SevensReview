@@ -234,5 +234,13 @@ export const reviews: Review[] = [
     path: "/jogos/cities-skylines-2",
     assetPath: "/assets/25/CitiesSkylanes2/frontpage.png",
   },
+  {
+    name: "Dispatch",
+    note: 93,
+    date: "2025-11-13",
+    description: "“Dispatch é uma comédia sobre o ambiente de trabalho de super-heróis onde suas escolhas importam. Gerencie uma equipe de heróis e planeje quem enviar para as emergências, tudo enquanto equilibra a política do escritório, os relacionamentos pessoais e sua própria jornada para se tornar um herói.” (Descrição da Steam)",
+    path: "/jogos/dispatch",
+    assetPath: "/assets/25/Dispatch/frontpage.png",
+  },
 
 ];

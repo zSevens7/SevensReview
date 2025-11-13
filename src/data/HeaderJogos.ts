@@ -479,6 +479,24 @@ export const gamesData = [
   engine: "Unity",
   platforms: ["Windows", "PlayStation 5", "Xbox Series X/S"]
 },
+{
+  slug: "dispatch",
+  title: "Dispatch",
+  subtitle: "Um jogo de heroi interativo muito divertido.",
+  rating: 93,
+  coverImage: "/assets/25/Dispatch/frontpage.png",
+  logo: "/assets/25/Dispatch/frontpage.png",
+  genre: "Interativo / Estratégia",
+  releaseDate: "2025-10-22",
+  developer: {
+    name: "AdHoc Studio",
+    countryFlag: "/assets/flags/us.png"
+  },
+  publisher: "AdHoc Studio",
+  engine: "Unreal Engine 4",
+  platforms: ["Windows", "PlayStation 5"]
+}
+
 
 
 
