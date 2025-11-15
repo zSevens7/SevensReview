@@ -242,5 +242,13 @@ export const reviews: Review[] = [
     path: "/jogos/dispatch",
     assetPath: "/assets/25/Dispatch/frontpage.png",
   },
+  {
+    name: "Pokemon X",
+    note: 91,
+    date: "2025-11-14",
+    description: "Pokémon X e Y são jogos eletrônicos de RPG desenvolvidos pela Game Freak e publicados pela Nintendo e The Pokémon Company para o console portátil Nintendo 3DS. Eles foram lançados mundialmente em outubro de 2013 como a sexta geração da série principal de jogos Pokémon.",
+    path: "/jogos/pokemon-x",
+    assetPath: "/assets/25/PokemonX/frontpage.png",
+  }
 
 ];

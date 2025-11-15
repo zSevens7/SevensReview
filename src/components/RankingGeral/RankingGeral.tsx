@@ -1,6 +1,6 @@
 // src/components/RankingGeral/RankingGeral.tsx
 import React, { useEffect, useState } from "react";
-import { TopGamesChart } from "./TopGamesChart";
+import { TopFranchisesChart as TopGamesChart } from "./TopFranchisesChart";
 import { TopGenresChart } from "./TopGenresChart";
 import { TopYearsChart } from "./TopYearsChart";
 import { CriteriaRadarChart } from "./CriteriaRadarChart";

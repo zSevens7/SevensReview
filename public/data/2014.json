@@ -1,18 +1,18 @@
 [
   {
-    "Nome Do Jogo": "Pokemon Polished Crystal",
-    "Empresa": "Rangi",
-    "Ano de Lançamento": 2000,
+    "Nome Do Jogo": "Pokemon Omega Ruby",
+    "Empresa": "Pokemon Company",
+    "Ano de Lançamento": 2014,
     "Situação": "Zerado",
-    "Plataforma": "PC/GBC",
+    "Plataforma": "3DS",
     "Gen1": "Rpg Turno",
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Franquia": "Pokemon",
     "Mecanica": 100,
     "Grafico": 100,
-    "Trilha Sonora": 80,
-    "Historia": 100,
+    "Trilha Sonora": 85,
+    "Historia": 95,
     "Otimização": 100,
     "Media": 96
   }

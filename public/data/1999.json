@@ -1,6 +1,6 @@
 [
   {
-    "Nome Do Jogo": "Digimon Wolrd 1",
+    "Nome Do Jogo": "Digimon World 1",
     "Empresa": "Bandai",
     "Ano de Lançamento": 1999,
     "Situação": "Zerado",
@@ -8,6 +8,7 @@
     "Gen1": "RPG",
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
+    "Franquia": "Digimon",
     "Mecanica": 80,
     "Grafico": 95,
     "Trilha Sonora": 85,

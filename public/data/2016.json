@@ -1,19 +1,19 @@
 [
   {
-    "Nome Do Jogo": "Pokemon Polished Crystal",
-    "Empresa": "Rangi",
-    "Ano de Lançamento": 2000,
+    "Nome Do Jogo": "Pokemon Sun",
+    "Empresa": "Pokemon Company",
+    "Ano de Lançamento": 2016,
     "Situação": "Zerado",
-    "Plataforma": "PC/GBC",
+    "Plataforma": "3DS",
     "Gen1": "Rpg Turno",
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
     "Franquia": "Pokemon",
-    "Mecanica": 100,
+    "Mecanica": 70,
     "Grafico": 100,
     "Trilha Sonora": 80,
-    "Historia": 100,
+    "Historia": 50,
     "Otimização": 100,
-    "Media": 96
+    "Media": 80
   }
 ]

@@ -495,7 +495,25 @@ export const gamesData = [
   publisher: "AdHoc Studio",
   engine: "Unreal Engine 4",
   platforms: ["Windows", "PlayStation 5"]
+},
+{
+  slug: "pokemon-x",
+  title: "Pokémon X",
+  subtitle: "A venture into the Kalos region with Mega Evolution",
+  rating: 87,
+  coverImage: "/assets/25/PokemonX/frontpage.png",
+  logo: "/assets/25/PokemonX/frontpage.png",
+  genre: "RPG",
+  releaseDate: "2013-10-12",
+  developer: {
+    name: "Game Freak",
+    countryFlag: "/assets/flags/japan.png"
+  },
+  publisher: "Nintendo / The Pokémon Company",
+  engine: "Proprietary 3DS engine",
+  platforms: ["Nintendo 3DS"]
 }
+
 
 
 

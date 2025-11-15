@@ -8,6 +8,10 @@ export interface JogoGeral {
   Gen1?: string;
   Gen2?: string;
   Nacionalidade?: string;
+
+  // 🆕 ADICIONAR AQUI
+  Franquia?: string;
+
   Mecanica?: number | string;
   Grafico?: number | string;
   "Trilha Sonora"?: number | string;
