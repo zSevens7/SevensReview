@@ -15,5 +15,22 @@
     "Historia": 100,
     "Otimização": 100,
     "Media": 96
+  },
+  {
+    "Nome Do Jogo": "Digimon World 2",
+    "Empresa": "Bandai",
+    "Ano de Lançamento": 2000,
+    "Situação": "Zerado",
+    "Plataforma": "PS1",
+    "Gen1": "Rpg Turno",
+    "Gen2": "Dungeon",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Digimon",
+    "Mecanica": 45,
+    "Grafico": 75,
+    "Trilha Sonora": 60,
+    "Historia": 70,
+    "Otimização": 100,
+    "Media": 70
   }
 ]

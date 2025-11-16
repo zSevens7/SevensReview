@@ -512,7 +512,25 @@ export const gamesData = [
   publisher: "Nintendo / The Pokémon Company",
   engine: "Proprietary 3DS engine",
   platforms: ["Nintendo 3DS"]
-}
+},
+{
+  slug: "digimon-world-2",
+  title: "Digimon World 2",
+  subtitle: "Dungeon-crawling, fusões estranhas e muito grind no Digital World",
+  rating: 70,
+  coverImage: "/assets/digimon/DigimonWorld2/frontpage.png",
+  logo: "/assets/digimon/DigimonWorld2/frontpage.png",
+  genre: "RPG de Turno / Dungeon Crawler",
+  releaseDate: "2000-07-27",
+  developer: {
+    name: "BEC",
+    countryFlag: "/assets/flags/japan.png"
+  },
+  publisher: "Bandai",
+  engine: "Proprietary PS1 engine",
+  platforms: ["PlayStation"]
+},
+
 
 
 

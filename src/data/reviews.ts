@@ -249,6 +249,13 @@ export const reviews: Review[] = [
     description: "Pokémon X e Y são jogos eletrônicos de RPG desenvolvidos pela Game Freak e publicados pela Nintendo e The Pokémon Company para o console portátil Nintendo 3DS. Eles foram lançados mundialmente em outubro de 2013 como a sexta geração da série principal de jogos Pokémon.",
     path: "/jogos/pokemon-x",
     assetPath: "/assets/25/PokemonX/frontpage.png",
-  }
-
+  },
+  {
+    name: "Digimon World 2",
+    note: 70,
+    date: "2025-11-16",
+    description: "Digimon World 2 é um RPG de ação para PlayStation lançado em 2000. Diferente do primeiro jogo, que focava na criação e treinamento de Digimon, este título apresenta uma jogabilidade baseada em exploração de masmorras e batalhas táticas por turnos. Os jogadores assumem o papel de um personagem que deve explorar várias áreas digitais, capturar e treinar Digimon para enfrentar desafios e inimigos.",
+    path: "/jogos/digimon-world-2",
+    assetPath: "/assets/25/DigimonWorld2/frontpage.png",
+  },
 ];
