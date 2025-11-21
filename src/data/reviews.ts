@@ -258,4 +258,13 @@ export const reviews: Review[] = [
     path: "/jogos/digimon-world-2",
     assetPath: "/assets/25/DigimonWorld2/frontpage.png",
   },
+  {
+    name: "Yu Gu Oh: Forbidden Memories",
+    note: 90,
+    date: "2025-11-21",
+    description: "Yu-Gi-Oh! Forbidden Memories é um jogo de cartas colecionáveis baseado na popular série de anime e mangá Yu-Gi-Oh!. Lançado para o PlayStation em 1999, o jogo permite que os jogadores construam seus próprios baralhos de cartas e duelam contra personagens da série, seguindo uma história que envolve o protagonista Yugi Mutou. O jogo é conhecido por sua jogabilidade estratégica e pela introdução de várias cartas icônicas da franquia.",
+    path: "/jogos/yu-gi-oh-forbidden-memories",
+    assetPath: "/assets/25/yugiohFM/frontpage.png",
+
+  }
 ];

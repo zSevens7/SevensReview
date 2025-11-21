@@ -530,6 +530,23 @@ export const gamesData = [
   engine: "Proprietary PS1 engine",
   platforms: ["PlayStation"]
 },
+{
+  slug: "yugioh-forbidden-memories",
+  title: "Yu-Gi-Oh! Forbidden Memories",
+  subtitle: "Fusões, duelos rápidos e um dos clássicos mais icônicos do PS1",
+  rating: 90,
+  coverImage: "/assets/25/yugiohFM/frontpage.png",
+  logo: "/assets/25/yugiohFM/frontpage.png",
+  genre: "Card Game / Estratégia",
+  releaseDate: "1999-12-09",
+  developer: {
+    name: "Konami Computer Entertainment Japan",
+    countryFlag: "/assets/flags/japan.png"
+  },
+  publisher: "Konami",
+  engine: "Proprietary PS1 engine",
+  platforms: ["PlayStation"]
+},
 
 
 

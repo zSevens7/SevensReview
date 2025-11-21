@@ -27,8 +27,9 @@ const DigimonWorld2: React.FC = () => {
     };
 
   // SEO
-  const seoDescription = "";
-  const seoKeywords = "";
+    const seoDescription = "Review completa de Digimon World 2, analisando mecânicas, gráficos, trilha sonora, história e desempenho. Veja por que o jogo tem potencial mas falhou na execução.";
+    const seoKeywords = "Digimon World 2 review, Digimon World 2 análise, PlayStation, PS1, RPG por turno, dungeon crawler, fusão de digimon, captura, Digimon";
+
 
   // Schema Data
   const schemaData = {
