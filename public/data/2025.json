@@ -304,5 +304,22 @@
     "Historia": 95,
     "Otimização": 98,
     "Media": 93
+  },
+  {
+    "Nome Do Jogo": "AILA",
+    "Empresa": "Pulsatrix Studios",
+    "Ano de Lançamento": 2025,
+    "Situação": "Zerado",
+    "Plataforma": "PC",
+    "Gen1": "TERROR",
+    "Gen2": "FPS",
+    "Nacionalidade": "BRASIL",
+    "Franquia": "AILA",
+    "Mecanica": 40,
+    "Grafico": 98,
+    "Trilha Sonora": 70,
+    "Historia": 92,
+    "Otimização": 100,
+    "Media": 80
   }
 ]

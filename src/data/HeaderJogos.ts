@@ -547,6 +547,25 @@ export const gamesData = [
   engine: "Proprietary PS1 engine",
   platforms: ["PlayStation"]
 },
+{
+  slug: "aila",
+  title: "A.I.L.A.",
+  subtitle: "Terror psicológico futurista moldado por uma IA perturbadora",
+  rating: 80,
+  coverImage: "/assets/25/AILA/frontpage.png",
+  logo: "/assets/25/AILA/frontpage.png",
+  genre: "Terror / Survival Horror / Ficção Científica",
+  releaseDate: "2025-11-25",
+  developer: {
+    name: "Pulsatrix Studios",
+    countryFlag: "/assets/flags/brazil.png"
+  },
+  publisher: "Fireshine Games",
+  engine: "Unreal Engine 5",  
+  platforms: ["PC (Steam)", "PlayStation 5", "Xbox Series X/S"],
+  description: "Em A.I.L.A., você é Samuel, um testador beta encarregado de experimentar jogos gerados por uma IA denominada A.I.L.A., que cria cenários de terror adaptados aos seus medos mais profundos. Conforme o virtual e o real começam a se misturar, a experiência se torna perturbadora e imprevisível."  
+},
+
 
 
 

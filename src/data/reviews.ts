@@ -266,5 +266,17 @@ export const reviews: Review[] = [
     path: "/jogos/yu-gi-oh-forbidden-memories",
     assetPath: "/assets/25/yugiohFM/frontpage.png",
 
-  }
+  },
+  {
+  name: "A.I.L.A",
+  note: 80,
+  date: "2025-11-25",
+  description: "A.I.L.A é um jogo de terror em primeira pessoa ambientado em um futuro repleto de tecnologia imersiva. Você assume o papel de um testador de uma nova IA fictícia e deve sobreviver a experiências de terror que exploram os seus medos mais profundos, enquanto as fronteiras entre o virtual e o real começam a se misturar.",
+  path: "/jogos/aila",
+  assetPath: "/assets/25/AILA/frontpage.png",
+},
+
+
+
+
 ];

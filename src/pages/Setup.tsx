@@ -27,6 +27,11 @@ export default function Setup() {
       description: "O Nintendo 3DS é um console que eu uso de vez em quando quando viajo. Sempre usei consoles da Nintendo, e tenho alguns antigos, como Nintendo DS modelo Palkia e Dialga, Gameboy Color e Nintendo Wii (esses dois últimos só de enfeite).",
       icon: <FaGamepad className="w-8 h-8 text-red-500" />,
     },
+    {
+      name: "Nintendo Switch 2",
+      description: "Eu decidi comprar o Nintendo Switch 2 por ser um console híbrido, perfeito para levar em viagens. Nele, devo jogar a maioria dos exclusivos da Nintendo.",
+      icon: <FaGamepad className="w-8 h-8 text-green-500" />,
+    },
   ];
 
   return (
