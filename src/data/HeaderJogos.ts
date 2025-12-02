@@ -565,7 +565,24 @@ export const gamesData = [
   platforms: ["PC (Steam)", "PlayStation 5", "Xbox Series X/S"],
   description: "Em A.I.L.A., você é Samuel, um testador beta encarregado de experimentar jogos gerados por uma IA denominada A.I.L.A., que cria cenários de terror adaptados aos seus medos mais profundos. Conforme o virtual e o real começam a se misturar, a experiência se torna perturbadora e imprevisível."  
 },
-
+{
+  slug: "pokemon-legends-z-a",
+  title: "Pokémon Legends: Z-A",
+  subtitle: "O retorno a Kalos com mecânicas refinadas e a despedida de uma era",
+  rating: 88,
+  coverImage: "/assets/25/PokemonLegendsZA/frontpage.png",
+  logo: "/assets/25/PokemonLegendsZA/logo.png",
+  genre: "Rpg de Turno (em Tempo Real) / Aventura",
+  releaseDate: "2025-10-16",
+  developer: {
+    name: "Game Freak",
+    countryFlag: "/assets/flags/japan.png"
+  },
+  publisher: "Nintendo / The Pokémon Company",
+  engine: "Proprietary Engine",
+  platforms: ["Nintendo Switch"],
+  description: "Ambientado inteiramente em Lumiose City, Pokémon Legends: Z-A traz uma nova visão da região de Kalos com um plano de reurbanização para a convivência entre humanos e Pokémon. O jogo expande a fórmula de Legends: Arceus, introduzindo combates mais dinâmicos, o retorno das Mega Evoluções e um sistema de progressão rankeado de Z a A, servindo como uma ponte técnica e narrativa para o futuro da franquia."
+}
 
 
 

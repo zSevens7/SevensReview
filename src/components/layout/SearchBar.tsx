@@ -43,6 +43,7 @@ const pages: Page[] = [
   { name: "dispatch", path: "/jogos/dispatch"},
   { name: "pokemon x", path: "/jogos/pokemon-x"},
   { name: "digimon world 2", path: "/jogos/digimon-world-2"},
+  { name: "pokemon legends z-a", path: "/jogos/pokemon-legends-z-a" },
 ];
 
 // Log inicial para verificar o array de páginas

@@ -321,5 +321,22 @@
     "Historia": 92,
     "Otimização": 100,
     "Media": 80
+  },
+  {
+    "Nome Do Jogo": "Pokemon Legends ZA",
+    "Empresa": "Pokemon Company",
+    "Ano de Lançamento": 2025,
+    "Situação": "Zerado",
+    "Plataforma": "Nintendo Switch 2",
+    "Gen1": "Rpg Turno",
+    "Gen2": "Aventura",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Pokemon",
+    "Mecanica": 100,
+    "Grafico": 80,
+    "Trilha Sonora": 80,
+    "Historia": 85,
+    "Otimização": 95,
+    "Media": 88
   }
 ]

@@ -275,6 +275,14 @@ export const reviews: Review[] = [
   path: "/jogos/aila",
   assetPath: "/assets/25/AILA/frontpage.png",
 },
+{
+  name: "Pokemon Legends: Z-A",
+  note: 88,
+  date: "2025-12-02",
+  description: "Ultimo jogo da franquia pokemon no Nintendo Switch, este jogo que é um sucessor de Pokemon Legends Arceus, traz uma mecanicas novas de batalhas.",
+  path: "/jogos/pokemon-legends-z-a",
+  assetPath: "/assets/25/PokemonLegendsZA/frontpage.png",
+},
 
 
 
