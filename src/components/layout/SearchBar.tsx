@@ -44,6 +44,9 @@ const pages: Page[] = [
   { name: "pokemon x", path: "/jogos/pokemon-x"},
   { name: "digimon world 2", path: "/jogos/digimon-world-2"},
   { name: "pokemon legends z-a", path: "/jogos/pokemon-legends-z-a" },
+  { name: "yu-gi-oh: forbidden memories", path: "/jogos/yu-gi-oh-forbidden-memories" },
+  { name: "aila", path: "/jogos/aila" },
+  { name: "nintendo switch sports", path: "/jogos/nintendo-switch-sports" }
 ];
 
 // Log inicial para verificar o array de páginas

@@ -283,7 +283,14 @@ export const reviews: Review[] = [
   path: "/jogos/pokemon-legends-z-a",
   assetPath: "/assets/25/PokemonLegendsZA/frontpage.png",
 },
-
+{
+  name: "Nintendo Switch Sports",
+  note: 79,
+  date: "2025-12-14",
+  description: "Sequência do clássico Wii Sports com novos modos como Futebol e Vôlei. Excelente para jogar em grupo, mas com progressão offline limitada.",
+  path: "/jogos/nintendo-switch-sports",
+  assetPath: "/assets/25/NintendoSports/frontpage.png",
+},
 
 
 

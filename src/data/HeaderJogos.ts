@@ -582,8 +582,25 @@ export const gamesData = [
   engine: "Proprietary Engine",
   platforms: ["Nintendo Switch"],
   description: "Ambientado inteiramente em Lumiose City, Pokémon Legends: Z-A traz uma nova visão da região de Kalos com um plano de reurbanização para a convivência entre humanos e Pokémon. O jogo expande a fórmula de Legends: Arceus, introduzindo combates mais dinâmicos, o retorno das Mega Evoluções e um sistema de progressão rankeado de Z a A, servindo como uma ponte técnica e narrativa para o futuro da franquia."
-}
-
+},
+{
+  slug: "nintendo-switch-sports",
+  title: "Nintendo Switch Sports",
+  subtitle: "Diversão garantida em grupo, mas solitária no offline",
+  rating: 79,
+  coverImage: "/assets/25/NintendoSports/frontpage.png",
+  logo: "/assets/25/NintendoSports/logo.png",
+  genre: "Esporte / Simulação ",
+  releaseDate: "2022-04-29",
+  developer: {
+    name: "Nintendo EPD",
+    countryFlag: "/assets/flags/japan.png"
+  },
+  publisher: "Nintendo",
+  engine: "Proprietary Engine",
+  platforms: ["Nintendo Switch"],
+  description: "Sequência do clássico Wii Sports, trazendo esportes novos como Futebol, Vôlei e Badminton. O jogo brilha na mecânica precisa dos Joy-Cons e na diversão com amigos e família, sendo uma excelente pedida para festas. No entanto, deixa a desejar na experiência single-player, com pouca progressão e profundidade no modo offline."
+},
 
 
 

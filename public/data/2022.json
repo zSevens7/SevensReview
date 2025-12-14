@@ -49,5 +49,22 @@
     "Historia": 100,
     "Otimização": 90,
     "Media": 88
+  },
+  {
+    "Nome Do Jogo": "Nintendo Switch Sports",
+    "Empresa": "Nintendo",
+    "Ano de Lançamento": 2022,
+    "Situação": "Zerado",
+    "Plataforma": "Nintendo Switch 2",
+    "Gen1": "Esporte",
+    "Gen2": "Simulação",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Sports",
+    "Mecanica": 90,
+    "Grafico": 90,
+    "Trilha Sonora": 65,
+    "Historia": 50,
+    "Otimização": 100,
+    "Media": 79
   }
 ]
