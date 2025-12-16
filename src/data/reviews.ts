@@ -291,6 +291,14 @@ export const reviews: Review[] = [
   path: "/jogos/nintendo-switch-sports",
   assetPath: "/assets/25/NintendoSports/frontpage.png",
 },
+{
+  name: "LockYourDoor",
+  note: 70,
+  date: "2025-12-16",
+  description: "Survival Horror cooperativo onde encontrar chaves e trancar portas é vital. Divertido com amigos, mas sofre com iluminação cinzenta e mecânicas mal aproveitadas.",
+  path: "/jogos/lock-your-door",
+  assetPath: "/assets/25/LockYourDoor/frontpage.png",
+},
 
 
 

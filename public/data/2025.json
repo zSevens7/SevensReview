@@ -338,5 +338,22 @@
     "Historia": 85,
     "Otimização": 95,
     "Media": 88
+  },
+  {
+    "Nome Do Jogo": "LockYourDoor",
+    "Empresa": "Penguin's Autumn",
+    "Ano de Lançamento": 2025,
+    "Situação": "Zerado",
+    "Plataforma": "PC",
+    "Gen1": "TERROR",
+    "Gen2": "Aventura",
+    "Nacionalidade": "TURQUIA",
+    "Franquia": "LockYourDoor",
+    "Mecanica": 80,
+    "Grafico": 50,
+    "Trilha Sonora": 75,
+    "Historia": 55,
+    "Otimização": 90,
+    "Media": 70
   }
 ]

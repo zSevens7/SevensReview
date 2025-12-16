@@ -601,6 +601,23 @@ export const gamesData = [
   platforms: ["Nintendo Switch"],
   description: "Sequência do clássico Wii Sports, trazendo esportes novos como Futebol, Vôlei e Badminton. O jogo brilha na mecânica precisa dos Joy-Cons e na diversão com amigos e família, sendo uma excelente pedida para festas. No entanto, deixa a desejar na experiência single-player, com pouca progressão e profundidade no modo offline."
 },
+{
+    slug: "lock-your-door",
+    title: "LockYourDoor",
+    subtitle: "Tranque a porta e reze, mas cuidado com a iluminação cinzenta",
+    rating: 70,
+    coverImage: "/assets/25/LockYourDoor/frontpage.png",
+    logo: "/assets/25/LockYourDoor/cover.png",
+    genre: "Terror / Cooperativo",
+    releaseDate: "2025-11-17",
+    developer: {
+        name: "Penguin's Autumn",
+        countryFlag: "/assets/flags/turkey.png" // Assumindo BR pelo contexto do dev indie, ou use worldwide se preferir
+    },
+    publisher: "Penguin's Autumn",
+    engine: "Não sei qual é a Engine",
+    platforms: ["PC (Steam)"]
+  },
 
 
 
