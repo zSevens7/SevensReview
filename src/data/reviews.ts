@@ -299,6 +299,14 @@ export const reviews: Review[] = [
   path: "/jogos/lock-your-door",
   assetPath: "/assets/25/LockYourDoor/frontpage.png",
 },
+{
+  name: "Pokemon Sword",
+  note: 84.4,
+  date: "2025-12-29",
+  description: "Pokémon Sword é a introdução da 8° geração da franquia Pokémon, o primeiro sendo no console primario da nintendo na epoca, o que representa um novo desafio para Pokemon Company.",
+  path: "/jogos/pokemon-sword",
+  assetPath: "/assets/25/PokemonSword/frontpage.png",
+},
 
 
 

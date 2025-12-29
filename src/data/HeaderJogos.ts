@@ -619,6 +619,23 @@ export const gamesData = [
     platforms: ["PC (Steam)"]
   },
 
+  {
+    slug: "pokemon-sword",
+    title: "Pokémon Sword",
+    subtitle: "Uma surpresa positiva que supera as expectativas, apesar dos problemas técnicos",
+    rating: 84.4,
+    coverImage: "/assets/25/PokemonSword/frontpage.png",
+    logo: "/assets/25/PokemonSword/logo.png",
+    genre: "RPG de Turno / Aventura",
+    releaseDate: "2019-11-15",
+    developer: {
+        name: "Game Freak",
+        countryFlag: "/assets/flags/japan.png"
+    },
+    publisher: "Nintendo / The Pokémon Company",
+    engine: "Proprietary Engine", // Engine própria da Game Freak
+    platforms: ["Nintendo Switch"]
+},
 
 
 
