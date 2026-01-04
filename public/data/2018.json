@@ -1,22 +1,5 @@
 [
   {
-    "Nome Do Jogo": "Kingdom Come:Deliverance",
-    "Empresa": "Warhorse Studios",
-    "Ano de Lançamento": 2018,
-    "Situação": "Zerado",
-    "Plataforma": "PC",
-    "Gen1": "RPG",
-    "Gen2": "Aventura",
-    "Nacionalidade": "REPUBLICA TCHECA",
-    "Franquia": "Kingdom Come",
-    "Mecanica": 90,
-    "Grafico": 90,
-    "Trilha Sonora": 80,
-    "Historia": 100,
-    "Otimização": 100,
-    "Media": 92
-  },
-  {
     "Nome Do Jogo": "Octopath Traveler",
     "Empresa": "Square Enix",
     "Ano de Lançamento": 2018,
@@ -32,5 +15,22 @@
     "Historia": 99,
     "Otimização": 96,
     "Media": 95
+  },
+  {
+    "Nome Do Jogo": "Kingdom Come:Deliverance",
+    "Empresa": "Warhorse Studios",
+    "Ano de Lançamento": 2018,
+    "Situação": "Zerado",
+    "Plataforma": "PC",
+    "Gen1": "RPG",
+    "Gen2": "Aventura",
+    "Nacionalidade": "REPUBLICA TCHECA",
+    "Franquia": "Kingdom Come",
+    "Mecanica": 90,
+    "Grafico": 90,
+    "Trilha Sonora": 80,
+    "Historia": 100,
+    "Otimização": 100,
+    "Media": 92
   }
 ]

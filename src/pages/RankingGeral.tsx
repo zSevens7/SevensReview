@@ -1,3 +1,4 @@
+// src/routes/RankingGeral.tsx
 import React, { useEffect, useState } from "react";
 import { TopGenresChart } from "../components/RankingGeral/TopGenresChart";
 import { TopFranchisesChart } from "../components/RankingGeral/TopFranchisesChart";
@@ -12,11 +13,15 @@ export default function RankingGeral() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("/data/todos.json"); 
+        // Adicionei o timestamp (?t=...) para forçar o navegador a não usar cache antigo
+        const res = await fetch(`/data/todos.json?t=${new Date().getTime()}`); 
         const json: JogoGeral[] = await res.json();
 
-        // Apenas jogos zerados
-        setJogos(json.filter(j => j.Situação?.trim() === "Zerado"));
+        // CORREÇÃO AQUI:
+        // Converte para minúsculo antes de comparar. 
+        // Assim ele aceita "Zerado", "ZERADO", "zerado", etc.
+        setJogos(json.filter(j => j.Situação?.trim().toLowerCase() === "zerado"));
+        
       } catch (err) {
         console.error("Erro ao carregar JSON:", err);
       }

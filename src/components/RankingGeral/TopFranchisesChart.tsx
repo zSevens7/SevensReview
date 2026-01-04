@@ -38,7 +38,9 @@ export const TopFranchisesChart: React.FC<Props> = ({ jogos }) => {
     const originalNames: Record<string, string> = {};
 
     jogos.forEach(j => {
-      if (j.Situação?.trim() !== "Zerado" || !j.Franquia) return;
+      // CORREÇÃO AQUI: 
+      // Adicionado .toLowerCase() para aceitar "Zerado", "ZERADO", "zerado"
+      if (j.Situação?.trim().toLowerCase() !== "zerado" || !j.Franquia) return;
 
       const original = j.Franquia.trim();
       const norm = normalize(original);

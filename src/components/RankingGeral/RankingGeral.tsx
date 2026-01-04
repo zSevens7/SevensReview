@@ -14,9 +14,14 @@ export const RankingGeral: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("/data/todos.json");
+        // Adicionei ?t=... para garantir que não pegue cache velho do navegador
+        const res = await fetch(`/data/todos.json?t=${new Date().getTime()}`);
         const json: Jogo[] = await res.json();
-        setJogos(json.filter(j => j.Situação?.trim() === "Zerado"));
+
+        // CORREÇÃO AQUI:
+        // Converte para minúsculo antes de comparar. Aceita "Zerado", "ZERADO", "zerado".
+        setJogos(json.filter(j => j.Situação?.trim().toLowerCase() === "zerado"));
+        
       } catch (err) {
         console.error("Erro ao carregar JSON:", err);
       }
@@ -32,7 +37,7 @@ export const RankingGeral: React.FC = () => {
           Ranking Geral
         </h1>
 
-        {/* Top 10 Jogos por Média Final */}
+        {/* Top 10 Franquias (TopGamesChart) */}
         <div className="bg-white dark:bg-gray-800 p-4 rounded-2xl shadow-md">
           <TopGamesChart jogos={jogos} />
         </div>

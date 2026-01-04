@@ -637,6 +637,24 @@ export const gamesData = [
     platforms: ["Nintendo Switch"]
 },
 
+{
+    slug: "octopath-traveler-0",
+    title: "Octopath Traveler 0",
+    subtitle: "A prequela definitiva que aprimora tudo do original com batalhas em larga escala",
+    rating: 97,
+    coverImage: "/assets/26/OctopathTraveler0/frontpage.png",
+    logo: "/assets/26/OctopathTraveler0/logo.png",
+    genre: "JRPG / RPG de Turno",
+    releaseDate: "2025-12-05", // Baseado na sua info de "dezembro do mês passado"
+    developer: {
+        name: "Square Enix / Acquire",
+        countryFlag: "/assets/flags/japan.png"
+    },
+    publisher: "Square Enix",
+    engine: "Unreal Engine 4", // Padrão dos jogos HD-2D
+    platforms: ["Nintendo Switch", "PC (Steam)", "PlayStation 5", "Xbox Series X/S"]
+},
+
 
 
 

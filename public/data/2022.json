@@ -1,20 +1,20 @@
 [
   {
-    "Nome Do Jogo": "Pokemon PRISM",
-    "Empresa": "Dev Rainbow",
+    "Nome Do Jogo": "Voice of Cards: The Beasts of Burdern",
+    "Empresa": "Alim/Square Enix",
     "Ano de Lançamento": 2022,
     "Situação": "Zerado",
-    "Plataforma": "GameBoy",
+    "Plataforma": "PC",
     "Gen1": "Rpg Turno",
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
-    "Franquia": "Pokemon",
-    "Mecanica": 100,
-    "Grafico": 90,
-    "Trilha Sonora": 90,
-    "Historia": 70,
-    "Otimização": 70,
-    "Media": 84
+    "Franquia": "Voice of Cards",
+    "Mecanica": 90,
+    "Grafico": 75,
+    "Trilha Sonora": 85,
+    "Historia": 100,
+    "Otimização": 90,
+    "Media": 88
   },
   {
     "Nome Do Jogo": "Pokemon Glazed",
@@ -34,21 +34,21 @@
     "Media": 87
   },
   {
-    "Nome Do Jogo": "Voice of Cards: The Beasts of Burdern",
-    "Empresa": "Alim/Square Enix",
+    "Nome Do Jogo": "Pokemon PRISM",
+    "Empresa": "Dev Rainbow",
     "Ano de Lançamento": 2022,
     "Situação": "Zerado",
-    "Plataforma": "PC",
+    "Plataforma": "GameBoy",
     "Gen1": "Rpg Turno",
     "Gen2": "Aventura",
     "Nacionalidade": "JAPÃO",
-    "Franquia": "Voice of Cards",
-    "Mecanica": 90,
-    "Grafico": 75,
-    "Trilha Sonora": 85,
-    "Historia": 100,
-    "Otimização": 90,
-    "Media": 88
+    "Franquia": "Pokemon",
+    "Mecanica": 100,
+    "Grafico": 90,
+    "Trilha Sonora": 90,
+    "Historia": 70,
+    "Otimização": 70,
+    "Media": 84
   },
   {
     "Nome Do Jogo": "Nintendo Switch Sports",

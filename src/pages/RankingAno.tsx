@@ -13,13 +13,27 @@ export default function RankingAno() {
   useEffect(() => {
     const fetchYears = async () => {
       try {
-        const res = await fetch("/data/todos.json"); // arquivo que contém todos os anos
+        const res = await fetch("/data/todos.json");
         const json: Jogo[] = await res.json();
+        
+        // Pega os anos únicos
         const uniqueYears = Array.from(
           new Set(json.map((j) => j["Ano de Lançamento"]))
-        ).sort();
+        );
+
+        // Ordena do MAIOR para o MENOR (2026, 2025, 2024...)
+        uniqueYears.sort((a, b) => b - a);
+
         setYears(uniqueYears.map(String));
-        setAno(uniqueYears[uniqueYears.length - 1]?.toString() || "todos"); // seleciona último ano
+        
+        // Seleciona o ano mais recente automaticamente se não estiver em 'todos'
+        // Ou mantém "todos" como padrão se preferir
+        if (uniqueYears.length > 0) {
+            setAno("todos"); 
+            // Se quiser que já abra no ano atual (2026), use:
+            // setAno(String(uniqueYears[0]));
+        }
+
       } catch (err) {
         console.error("Erro ao carregar anos:", err);
       }
@@ -33,11 +47,17 @@ export default function RankingAno() {
       try {
         if (!ano) return;
         const url = ano === "todos" ? "/data/todos.json" : `/data/${ano}.json`;
-        const res = await fetch(url);
+        
+        // Adiciona um timestamp para evitar cache do navegador (opcional, mas bom em dev)
+        const res = await fetch(`${url}?t=${new Date().getTime()}`);
         const json: Jogo[] = await res.json();
-        setJogos(json.filter((j) => j["Situação"]?.trim() === "Zerado"));
+
+        // CORREÇÃO AQUI: Normaliza para minúsculo para aceitar "Zerado", "ZERADO", "zerado"
+        setJogos(json.filter((j) => j["Situação"]?.trim().toLowerCase() === "zerado"));
+
       } catch (err) {
         console.error("Erro ao carregar JSON:", err);
+        setJogos([]); // Limpa lista em caso de erro
       }
     };
     fetchData();

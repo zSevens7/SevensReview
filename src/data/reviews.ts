@@ -307,6 +307,14 @@ export const reviews: Review[] = [
   path: "/jogos/pokemon-sword",
   assetPath: "/assets/25/PokemonSword/frontpage.png",
 },
+{
+  name: "Octopath Traveler 0",
+  note: 97,
+  date: "2026-01-04",
+  description: "Confesso que joguei o primeiro jogo dessa franquia da Square Enix, mas ainda não tive tempo para jogar o Octopath Traveler II. Porém, como o lançamento de Octopath Traveler 0 ocorreu em dezembro passado, decidi jogá-lo antes do 2, até porque ele se passa em um local e tempo anteriores ao primeiro jogo.",
+  path: "/jogos/octopath-traveler-0",
+  assetPath: "/assets/26/OctopathTraveler0/frontpage.png",
+},
 
 
 

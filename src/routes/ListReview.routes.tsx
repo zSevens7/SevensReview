@@ -45,6 +45,7 @@ const PokemonLegendsZA = lazy(() => import('../pages/jogos/PokemonLegendsZA'));
 const NintendoSwitchSports = lazy(() => import('../pages/jogos/NintendoSwitchSports'));
 const LockYourDoor = lazy(() => import('../pages/jogos/LockYourDoor'));
 const PokemonSword = lazy(() => import('../pages/jogos/PokemonSword'));
+const OctopathTraveler0 = lazy(() => import('../pages/jogos/OctopathTraveler0'));
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -95,6 +96,7 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/nintendo-switch-sports" element={<NintendoSwitchSports />} />
       <Route path="/jogos/lock-your-door" element={<LockYourDoor />} />
       <Route path="/jogos/pokemon-sword" element={<PokemonSword />} />
+      <Route path="/jogos/octopath-traveler-0" element={<OctopathTraveler0 />} />
 
 
 
