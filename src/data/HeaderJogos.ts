@@ -655,7 +655,23 @@ export const gamesData = [
     platforms: ["Nintendo Switch", "PC (Steam)", "PlayStation 5", "Xbox Series X/S"]
 },
 
-
+{
+    slug: "trails-in-the-sky-1st",
+    title: "Trails in the Sky the 1st",
+    subtitle: "A jornada de Estelle e Joshua reimaginada com estratégia e carisma inigualáveis",
+    rating: 92,
+    coverImage: "/assets/26/TrailsInTheSky1/frontpage.png",
+    logo: "/assets/26/TrailsInTheSky1/logo.png",
+    genre: "JRPG / RPG de Turno",
+    releaseDate: "2025-11-20", // Data estimada para o lançamento do Remake
+    developer: {
+        name: "Nihon Falcom",
+        countryFlag: "/assets/flags/japan.png"
+    },
+    publisher: "Nihon Falcom / NIS America",
+    engine: "Falcom Proprietary Engine", // Nova engine 3D da Falcom (mesma de Daybreak)
+    platforms: ["Nintendo Switch", "PC (Steam)", "PlayStation 5"]
+},
 
 
 

@@ -316,6 +316,14 @@ export const reviews: Review[] = [
   assetPath: "/assets/26/OctopathTraveler0/frontpage.png",
 },
 
+{
+  name: "Trails in the Sky the 1st",
+  note: 92,
+  date: "2026-01-12",
+  description: "Reimaginação do clássico JRPG com visuais aprimorados. A química entre Estelle e Joshua carrega uma história fascinante de política e aventura no Reino de Liberl.",
+  path: "/jogos/trails-in-the-sky-1st",
+  assetPath: "/assets/26/TrailsInTheSky1/frontpage.png",
+},
 
 
 ];
