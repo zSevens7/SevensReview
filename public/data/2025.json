@@ -102,23 +102,6 @@
     "Media": 96
   },
   {
-    "Nome Do Jogo": "Trails in the Sky 1st Chapter",
-    "Empresa": "Nihon Falcom",
-    "Ano de Lançamento": 2025,
-    "Situação": "ZERADO",
-    "Plataforma": "PC",
-    "Gen1": "Rpg Turno",
-    "Gen2": "Aventura",
-    "Nacionalidade": "JAPÃO",
-    "Franquia": "Trails",
-    "Mecanica": 95,
-    "Grafico": 90,
-    "Trilha Sonora": 90,
-    "Historia": 100,
-    "Otimização": 95,
-    "Media": 94
-  },
-  {
     "Nome Do Jogo": "Dispatch",
     "Empresa": "AdHoc Studio",
     "Ano de Lançamento": 2025,
@@ -134,6 +117,23 @@
     "Historia": 95,
     "Otimização": 98,
     "Media": 93
+  },
+  {
+    "Nome Do Jogo": "Trails in the Sky 1st Chapter",
+    "Empresa": "Nihon Falcom",
+    "Ano de Lançamento": 2025,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Rpg Turno",
+    "Gen2": "Aventura",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Trails",
+    "Mecanica": 95,
+    "Grafico": 90,
+    "Trilha Sonora": 80,
+    "Historia": 100,
+    "Otimização": 95,
+    "Media": 92
   },
   {
     "Nome Do Jogo": "Like a Dragon: Pirate Yakuza in Hawaii",

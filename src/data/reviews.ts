@@ -324,6 +324,14 @@ export const reviews: Review[] = [
   path: "/jogos/trails-in-the-sky-1st",
   assetPath: "/assets/26/TrailsInTheSky1/frontpage.png",
 },
+{
+  name: "Pokémon Scarlet",
+  note: 65,
+  date: "2026-01-23",
+  description: "Apesar da mecânica divertida e da melhoria no Switch 2, é visualmente o pior jogo da franquia. Boas ideias de mundo aberto ofuscadas por uma execução técnica desastrosa.",
+  path: "/jogos/pokemon-scarlet",
+  assetPath: "/assets/26/PokemonScarlet/frontpage.png",
+},
 
 
 ];

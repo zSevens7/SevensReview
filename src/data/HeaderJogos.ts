@@ -672,6 +672,23 @@ export const gamesData = [
     engine: "Falcom Proprietary Engine", // Nova engine 3D da Falcom (mesma de Daybreak)
     platforms: ["Nintendo Switch", "PC (Steam)", "PlayStation 5"]
 },
+{
+    slug: "pokemon-scarlet",
+    title: "Pokémon Scarlet",
+    subtitle: "Boas ideias de mundo aberto arruinadas por uma execução técnica e visual datada",
+    rating: 65,
+    coverImage: "/assets/26/PokemonScarlet/frontpage.png",
+    logo: "/assets/26/PokemonScarlet/logo.png",
+    genre: "RPG / Aventura",
+    releaseDate: "2022-11-18",
+    developer: {
+        name: "Game Freak",
+        countryFlag: "/assets/flags/japan.png"
+    },
+    publisher: "Nintendo / The Pokémon Company",
+    engine: "Proprietary Engine",
+    platforms: ["Nintendo Switch"] // Rodando via retrocompatibilidade/patch no Switch 2
+},
 
 
 

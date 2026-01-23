@@ -66,5 +66,22 @@
     "Historia": 50,
     "Otimização": 100,
     "Media": 79
+  },
+  {
+    "Nome Do Jogo": "Pokemon Scarlet",
+    "Empresa": "Pokemon Company",
+    "Ano de Lançamento": 2022,
+    "Situação": "ZERADO",
+    "Plataforma": "Nintendo Switch 2",
+    "Gen1": "Rpg Turno",
+    "Gen2": "Aventura",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Pokemon",
+    "Mecanica": 95,
+    "Grafico": 25,
+    "Trilha Sonora": 80,
+    "Historia": 40,
+    "Otimização": 85,
+    "Media": 65
   }
 ]
