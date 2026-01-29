@@ -332,6 +332,15 @@ export const reviews: Review[] = [
   path: "/jogos/pokemon-scarlet",
   assetPath: "/assets/26/PokemonScarlet/frontpage.png",
 },
+{
+  name: "Pokémon Lazarus",
+  note: 84,
+  date: "2026-01-29",
+  description: "Uma ROM Hack de Emerald situada na Grécia Antiga. Traz mecânicas modernas como encontros no overworld, mas peca na navegação do endgame.",
+  path: "/jogos/pokemon-lazarus",
+  assetPath: "/assets/26/PokemonLazarus/frontpage.png",
+},
+
 
 
 ];

@@ -1,13 +1,14 @@
 // src/components/GameImage.tsx
-import React, { useState } from "react";
+import React, { useState, CSSProperties } from "react";
 
 interface GameImageProps {
   src: string;
   alt: string;
   className?: string;
+  style?: CSSProperties; // Adicionamos isso aqui!
 }
 
-export default function GameImage({ src, alt, className }: GameImageProps) {
+export default function GameImage({ src, alt, className, style }: GameImageProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -17,7 +18,9 @@ export default function GameImage({ src, alt, className }: GameImageProps) {
         <img
           src={src}
           alt={alt}
-          className={`max-w-xs md:max-w-md lg:max-w-lg rounded shadow hover:shadow-lg transition cursor-pointer ${className}`}
+          // Adicionamos o style={style} aqui
+          style={style} 
+          className={`cursor-pointer rounded shadow hover:shadow-lg transition ${className || "max-w-xs md:max-w-md lg:max-w-lg"}`}
           onClick={() => setIsOpen(true)}
         />
       </div>
@@ -26,15 +29,17 @@ export default function GameImage({ src, alt, className }: GameImageProps) {
       {isOpen && (
         <div
           className="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center p-4"
-          onClick={() => setIsOpen(false)} // fecha ao clicar fora da imagem
+          onClick={() => setIsOpen(false)}
         >
           <div
             className="relative"
-            onClick={(e) => e.stopPropagation()} // impede fechamento ao clicar na imagem
+            onClick={(e) => e.stopPropagation()}
           >
             <img
               src={src}
               alt={alt}
+              // Adicionamos o style={style} aqui também para o pixel art ficar nítido no zoom
+              style={style}
               className="max-h-screen max-w-screen rounded shadow-lg"
             />
             {/* Botão fechar */}
