@@ -340,6 +340,16 @@ export const reviews: Review[] = [
   path: "/jogos/pokemon-lazarus",
   assetPath: "/assets/26/PokemonLazarus/frontpage.png",
 },
+{
+  name: "Digimon World 3",
+  note: 83,
+  date: "2026-02-01",
+  description: "O último Digimon do PS1 aposta em gráficos belíssimos e mecânicas de RPG por turno, mas sofre com grind excessivo, batalhas lentas e backtracking cansativo.",
+  path: "/jogos/digimon-world-3",
+  assetPath: "/assets/26/DigimonWorld3/frontpage.png",
+},
+
+
 
 
 

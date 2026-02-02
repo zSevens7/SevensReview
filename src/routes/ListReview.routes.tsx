@@ -49,6 +49,7 @@ const OctopathTraveler0 = lazy(() => import('../pages/jogos/OctopathTraveler0'))
 const TrailsInTheSky1 = lazy(() => import('../pages/jogos/TrailsInTheSky1'));
 const PokemonScarlet = lazy(() => import('../pages/jogos/PokemonScarlet'));
 const PokemonLazarus = lazy(() => import('../pages/jogos/PokemonLazarus'));
+const DigimonWorld3 = lazy(() => import('../pages/jogos/DigimonWorld3'));
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -103,6 +104,7 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/trails-in-the-sky-1st" element={<TrailsInTheSky1 />} />
       <Route path="/jogos/pokemon-scarlet" element={<PokemonScarlet />} />
       <Route path="/jogos/pokemon-lazarus" element={<PokemonLazarus />} />
+      <Route path="/jogos/digimon-world-3" element={<DigimonWorld3 />} />
 
 
     </Routes>
