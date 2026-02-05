@@ -348,6 +348,14 @@ export const reviews: Review[] = [
   path: "/jogos/digimon-world-3",
   assetPath: "/assets/26/DigimonWorld3/frontpage.png",
 },
+{
+  name: "Top Shop (Board Game)",
+  note: 75,
+  date: "2026-02-04",
+  description: "Um jogo de tabuleiro estilo Monopoly vertical esquecido no PS1. Divertido e estratégico, mas nascido na época errada para brilhar no multiplayer.",
+  path: "/jogos/top-shop",
+  assetPath: "/assets/26/TopShop/frontpage.png",
+},
 
 
 

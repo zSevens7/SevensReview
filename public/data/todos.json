@@ -680,6 +680,23 @@
     "Media": 75
   },
   {
+    "Nome Do Jogo": "Top Shop",
+    "Empresa": "KID",
+    "Ano de Lançamento": 1998,
+    "Situação": "ZERADO",
+    "Plataforma": "PS1",
+    "Gen1": "Simulação",
+    "Gen2": "Estrategia",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Top Shop",
+    "Mecanica": 85,
+    "Grafico": 70,
+    "Trilha Sonora": 70,
+    "Historia": 50,
+    "Otimização": 100,
+    "Media": 75
+  },
+  {
     "Nome Do Jogo": "Football Life Simulator",
     "Empresa": "Ludu Arts",
     "Ano de Lançamento": 2025,
