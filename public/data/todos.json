@@ -289,6 +289,23 @@
     "Media": 90
   },
   {
+    "Nome Do Jogo": "Need for Speed Hot Pursuit Remasterd",
+    "Empresa": "Criterion Games",
+    "Ano de Lançamento": 2020,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Corrida",
+    "Gen2": "Arcade",
+    "Nacionalidade": "Reino Unido",
+    "Franquia": "Need for Speed",
+    "Mecanica": 100,
+    "Grafico": 95,
+    "Trilha Sonora": 85,
+    "Historia": 70,
+    "Otimização": 95,
+    "Media": 89
+  },
+  {
     "Nome Do Jogo": "Voice of Cards: The Beasts of Burdern",
     "Empresa": "Alim/Square Enix",
     "Ano de Lançamento": 2022,
@@ -685,7 +702,7 @@
     "Ano de Lançamento": 1998,
     "Situação": "ZERADO",
     "Plataforma": "PS1",
-    "Gen1": "Simulação",
+    "Gen1": "Tabuleiro",
     "Gen2": "Estrategia",
     "Nacionalidade": "JAPÃO",
     "Franquia": "Top Shop",

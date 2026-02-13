@@ -1,5 +1,22 @@
 [
   {
+    "Nome Do Jogo": "Need for Speed Hot Pursuit Remasterd",
+    "Empresa": "Criterion Games",
+    "Ano de Lançamento": 2020,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Corrida",
+    "Gen2": "Arcade",
+    "Nacionalidade": "Reino Unido",
+    "Franquia": "Need for Speed",
+    "Mecanica": 100,
+    "Grafico": 95,
+    "Trilha Sonora": 85,
+    "Historia": 70,
+    "Otimização": 95,
+    "Media": 89
+  },
+  {
     "Nome Do Jogo": "Cyberpunk 2077",
     "Empresa": "Cd Projekt Red",
     "Ano de Lançamento": 2020,

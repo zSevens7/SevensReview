@@ -52,6 +52,8 @@ const pages: Page[] = [
   { name: "octopath traveler 0", path: "/jogos/octopath-traveler-0" },
   { name: "trails in the sky 1st", path: "/jogos/trails-in-the-sky-1st" },
   { name: "pokemon scarlet", path: "/jogos/pokemon-scarlet" },
+  { name: "top shop", path: "/jogos/top-shop" },
+  { name: "need for speed: hot pursuit remastered", path: "/jogos/need-for-speed-hpr" },
 ];
 
 // Log inicial para verificar o array de páginas

@@ -356,6 +356,14 @@ export const reviews: Review[] = [
   path: "/jogos/top-shop",
   assetPath: "/assets/26/TopShop/frontpage.png",
 },
+{
+  name: "Need for Speed: Hot Pursuit Remastered",
+  note: 89,
+  date: "2026-02-13",
+  description: "Considerado o último 'Need' excelente. Brilha nas perseguições policiais e no design do mapa, mas peca na falta de customização e história.",
+  path: "/jogos/need-for-speed-hpr",
+  assetPath: "/assets/26/NeedForSpeedHPR/frontpage.png",
+},
 
 
 
