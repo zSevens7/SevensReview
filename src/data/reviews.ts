@@ -364,6 +364,14 @@ export const reviews: Review[] = [
   path: "/jogos/need-for-speed-hpr",
   assetPath: "/assets/26/NeedForSpeedHPR/frontpage.png",
 },
+{
+  name: "Mario Tennis Fever",
+  note: 84,
+  date: "2026-02-19",
+  description: "Um jogo de tênis muito divertido com mecânicas de poderes e quadras dinâmicas. O modo aventura tem um início lento, mas o excelente gameplay e a localização para o nosso idioma compensam.",
+  path: "/jogos/mario-tennis-fever",
+  assetPath: "/assets/26/MarioTenisFever/frontpage.png",
+},
 
 
 
