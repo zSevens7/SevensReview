@@ -372,6 +372,14 @@ export const reviews: Review[] = [
   path: "/jogos/mario-tennis-fever",
   assetPath: "/assets/26/MarioTenisFever/frontpage.png",
 },
+{
+  name: "Pokémon Pokopia",
+  note: 91,
+  date: "2026-03-15",
+  description: "Uma mistura relaxante de Animal Crossing com construção de cidade no Switch 2. Interaja com Pokémon que possuem rotinas próprias e aproveite o ciclo de tempo real.",
+  path: "/jogos/pokemon-pokopia",
+  assetPath: "/assets/26/Pokopia/frontpage.png",
+},
 
 
 

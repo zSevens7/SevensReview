@@ -221,6 +221,23 @@
     "Media": 91
   },
   {
+    "Nome Do Jogo": "Pokopia",
+    "Empresa": "Pokemon Company",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "Nintendo Switch 2",
+    "Gen1": "Simulação",
+    "Gen2": "COZY",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Pokemon",
+    "Mecanica": 100,
+    "Grafico": 100,
+    "Trilha Sonora": 80,
+    "Historia": 80,
+    "Otimização": 95,
+    "Media": 91
+  },
+  {
     "Nome Do Jogo": "Pokemon Emerald Legacy",
     "Empresa": "TheSmithPlays",
     "Ano de Lançamento": 2004,
