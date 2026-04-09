@@ -32,5 +32,22 @@
     "Historia": 100,
     "Otimização": 100,
     "Media": 92
+  },
+  {
+    "Nome Do Jogo": "Pokemon Let's go Eevee",
+    "Empresa": "Pokemon Company",
+    "Ano de Lançamento": 2018,
+    "Situação": "ZERADO",
+    "Plataforma": "Nintendo Switch 2",
+    "Gen1": "Rpg Turno",
+    "Gen2": "Aventura",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Pokemon",
+    "Mecanica": 25,
+    "Grafico": 95,
+    "Trilha Sonora": 80,
+    "Historia": 60,
+    "Otimização": 95,
+    "Media": 71
   }
 ]

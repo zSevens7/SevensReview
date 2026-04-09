@@ -380,6 +380,15 @@ export const reviews: Review[] = [
   path: "/jogos/pokemon-pokopia",
   assetPath: "/assets/26/Pokopia/frontpage.png",
 },
+{
+  name: "Pokémon Let's Go, Eevee!",
+  note: 71,
+  date: "2026-04-09",
+  description: "Um dos jogos mais bonitos da era Switch 1 da franquia Pokémon, mas, ao mesmo tempo, um dos mais fracos mecanicamente.",
+  path: "/jogos/pokemon-lets-go-eevee",
+  assetPath: "/assets/26/PokemonLetsGoEevee/frontpage.png",
+},
+
 
 
 
