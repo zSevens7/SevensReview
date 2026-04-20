@@ -388,7 +388,14 @@ export const reviews: Review[] = [
   path: "/jogos/pokemon-lets-go-eevee",
   assetPath: "/assets/26/PokemonLetsGoEevee/frontpage.png",
 },
-
+{
+  name: "Pragmata",
+  note: 88,
+  date: "2026-04-20",
+  description: "Depois de 6 anos de desenvolvimento, a Capcom lança uma nova franquia, uma aposta na mecânica ainda usando a RE Engine, que funciona muito bem no jogo.",
+  path: "/jogos/pragmata",
+  assetPath: "/assets/26/Pragmata/frontpage.png",
+},
 
 
 

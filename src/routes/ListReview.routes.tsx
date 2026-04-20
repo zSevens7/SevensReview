@@ -55,6 +55,7 @@ const NeedForSpeedHPR = lazy(() => import('../pages/jogos/NeedForSpeedHPR'));
 const MarioTenisFever = lazy(() => import('../pages/jogos/MarioTenisFever'));
 const PokemonPokopia = lazy(() => import('../pages/jogos/PokemonPokopia'));
 const PokemonLetsGoEevee = lazy(() => import('../pages/jogos/PokemonLetsGoEevee'));
+const Pragmata = lazy(() => import('../pages/jogos/Pragmata')); // ← NOVO!
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -115,6 +116,7 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/mario-tennis-fever" element={<MarioTenisFever />} />
       <Route path="/jogos/pokemon-pokopia" element={<PokemonPokopia />} />
       <Route path="/jogos/pokemon-lets-go-eevee" element={<PokemonLetsGoEevee />} />
+      <Route path="/jogos/pragmata" element={<Pragmata />} /> {/* ← NOVO! */}
 
 
     </Routes>
