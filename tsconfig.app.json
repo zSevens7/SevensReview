@@ -15,9 +15,9 @@
     "isolatedModules": true,
     "noEmit": true,
     
-    "baseUrl": ".",
+    // REMOVIDO: "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"] 
     },
 
     // 🔽 ESSENCIAL para JSX

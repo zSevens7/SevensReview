@@ -34,6 +34,23 @@
     "Media": 88
   },
   {
+    "Nome Do Jogo": "Subnautica 2",
+    "Empresa": "Unknown Worlds Entertainment",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Aventura",
+    "Gen2": "Sobrevivencia",
+    "Nacionalidade": "EUA",
+    "Franquia": "Subnautica",
+    "Mecanica": 90,
+    "Grafico": 100,
+    "Trilha Sonora": 60,
+    "Historia": 76,
+    "Otimização": 99,
+    "Media": 85
+  },
+  {
     "Nome Do Jogo": "Mario Tenis Fever",
     "Empresa": "Nintendo",
     "Ano de Lançamento": 2026,
@@ -49,5 +66,39 @@
     "Historia": 65,
     "Otimização": 100,
     "Media": 84
+  },
+  {
+    "Nome Do Jogo": "Saros",
+    "Empresa": "Housemarque",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PS5",
+    "Gen1": "FPS",
+    "Gen2": "RogueLike",
+    "Nacionalidade": "FINLANDIA",
+    "Franquia": "Returnal",
+    "Mecanica": 100,
+    "Grafico": 73,
+    "Trilha Sonora": 52,
+    "Historia": 85,
+    "Otimização": 100,
+    "Media": 82
+  },
+  {
+    "Nome Do Jogo": "Super Battle Golf",
+    "Empresa": "Brimstone",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Esporte",
+    "Gen2": "Arcade",
+    "Nacionalidade": "SUÉCIA",
+    "Franquia": "Super Battle Golf",
+    "Mecanica": 95,
+    "Grafico": 80,
+    "Trilha Sonora": 60,
+    "Historia": 70,
+    "Otimização": 100,
+    "Media": 81
   }
 ]

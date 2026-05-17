@@ -15,5 +15,22 @@
     "Historia": 94,
     "Otimização": 99,
     "Media": 90.6
+  },
+  {
+    "Nome Do Jogo": "Pokemon Leafgreen",
+    "Empresa": "Pokemon Company",
+    "Ano de Lançamento": 2004,
+    "Situação": "ZERADO",
+    "Plataforma": "GameBoy",
+    "Gen1": "Rpg Turno",
+    "Gen2": "Aventura",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Pokemon",
+    "Mecanica": 80,
+    "Grafico": 90,
+    "Trilha Sonora": 85,
+    "Historia": 85,
+    "Otimização": 90,
+    "Media": 86
   }
 ]

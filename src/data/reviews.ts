@@ -396,9 +396,38 @@ export const reviews: Review[] = [
   path: "/jogos/pragmata",
   assetPath: "/assets/26/Pragmata/frontpage.png",
 },
-
-
-
+{
+  name: "Pokémon LeafGreen",
+  note: 86,
+  date: "2026-04-27",
+  description: "No aniversário de 30 anos de Pokémon, a Nintendo libera o seu jogo clássico lançado 22 anos atrás, literalmente igual ao anterior, ou seja, terá problemas.",
+  path: "/jogos/pokemon-leafgreen",
+  assetPath: "/assets/26/PokemonLeafgreen/frontpage.png",
+},
+{
+  name: "Super Battle Golf",
+  note: 81,
+  date: "2026-05-05",
+  description: "Um Mario Kart de golf multiplayer que dá certo e é muito divertido.",
+  path: "/jogos/super-battle-golf",
+  assetPath: "/assets/26/SuperBattleGolf/frontpage.png",
+},
+{
+  name: "Saros",
+  note: 82,
+  date: "2026-05-10",
+  description: "Um Returnal melhorado mecanicamente com novas ideias, porém ainda segue com uma história confusa e uma trilha sonora fraca.",
+  path: "/jogos/saros",
+  assetPath: "/assets/26/Saros/frontpage.png",
+},
+{
+  name: "Subnautica 2",
+  note: 85,
+  date: "2026-05-17",
+  description: "Depois de 8 anos após lançar o Subnautica 1, finalmente temos um Subnautica coop, que apresenta um mundo muito bonito.",
+  path: "/jogos/subnautica-2",
+  assetPath: "/assets/26/Subnautica2/frontpage.png",
+},
 
 
 ];

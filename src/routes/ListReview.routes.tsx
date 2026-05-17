@@ -56,6 +56,10 @@ const MarioTenisFever = lazy(() => import('../pages/jogos/MarioTenisFever'));
 const PokemonPokopia = lazy(() => import('../pages/jogos/PokemonPokopia'));
 const PokemonLetsGoEevee = lazy(() => import('../pages/jogos/PokemonLetsGoEevee'));
 const Pragmata = lazy(() => import('../pages/jogos/Pragmata')); // ← NOVO!
+const PokemonLeafgreen = lazy(() => import('../pages/jogos/PokemonLeafgreen')); // ← NOVO!
+const SuperBattleGolf = lazy(() => import('../pages/jogos/SuperBattleGolf')); // ← NOVO!
+const Saros = lazy(() => import('../pages/jogos/Saros')); // ← CORRIGIDO!
+const Subnautica2 = lazy(() => import('../pages/jogos/Subnautica2')); // ← NOVO!
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -117,6 +121,10 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/pokemon-pokopia" element={<PokemonPokopia />} />
       <Route path="/jogos/pokemon-lets-go-eevee" element={<PokemonLetsGoEevee />} />
       <Route path="/jogos/pragmata" element={<Pragmata />} /> {/* ← NOVO! */}
+      <Route path="/jogos/pokemon-leafgreen" element={<PokemonLeafgreen />} /> {/* ← NOVO! */}
+      <Route path="/jogos/super-battle-golf" element={<SuperBattleGolf />} /> {/* ← NOVO! */}
+      <Route path="/jogos/saros" element={<Saros />} /> {/* ← CORRIGIDO! */}
+      <Route path="/jogos/subnautica-2" element={<Subnautica2 />} /> {/* ← NOVO! */}
 
 
     </Routes>

@@ -54,6 +54,13 @@ const pages: Page[] = [
   { name: "pokemon scarlet", path: "/jogos/pokemon-scarlet" },
   { name: "top shop", path: "/jogos/top-shop" },
   { name: "need for speed: hot pursuit remastered", path: "/jogos/need-for-speed-hpr" },
+  { name: "saros", path: "/jogos/saros" },
+  { name: "mario tennis fever", path: "/jogos/mario-tennis-fever" },
+  { name: "pokemon pokopia", path: "/jogos/pokemon-pokopia" },
+  { name: "pokemon let's go eevee", path: "/jogos/pokemon-lets-go-eevee" },
+  { name: "pragmata", path: "/jogos/pragmata" },
+  { name: "pokemon leafgreen", path: "/jogos/pokemon-leafgreen" },
+  { name: "super battle golf", path: "/jogos/super-battle-golf" },
 ];
 
 // Log inicial para verificar o array de páginas
