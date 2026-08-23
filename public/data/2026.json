@@ -1,5 +1,22 @@
 [
   {
+    "Nome Do Jogo": "Assassin's Creed Black Flag Resynced",
+    "Empresa": "Ubisoft",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Aventura",
+    "Gen2": "STEALH",
+    "Nacionalidade": "FRANÇA",
+    "Franquia": "Assassin's Creed",
+    "Mecanica": 92,
+    "Grafico": 100,
+    "Trilha Sonora": 84,
+    "Historia": 100,
+    "Otimização": 99,
+    "Media": 95
+  },
+  {
     "Nome Do Jogo": "Pokopia",
     "Empresa": "Pokemon Company",
     "Ano de Lançamento": 2026,
@@ -17,6 +34,23 @@
     "Media": 91
   },
   {
+    "Nome Do Jogo": "007: First Light",
+    "Empresa": "IO Interactive",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PS5",
+    "Gen1": "FPS",
+    "Gen2": "STEALH",
+    "Nacionalidade": "DINAMARCA",
+    "Franquia": "#007",
+    "Mecanica": 90,
+    "Grafico": 95,
+    "Trilha Sonora": 70,
+    "Historia": 95,
+    "Otimização": 100,
+    "Media": 90
+  },
+  {
     "Nome Do Jogo": "Pragmata",
     "Empresa": "Capcom",
     "Ano de Lançamento": 2026,
@@ -30,6 +64,23 @@
     "Grafico": 90,
     "Trilha Sonora": 70,
     "Historia": 80,
+    "Otimização": 100,
+    "Media": 88
+  },
+  {
+    "Nome Do Jogo": "Forza Horizon 6",
+    "Empresa": "Playground Games",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Corrida",
+    "Gen2": "Arcade",
+    "Nacionalidade": "REINO UNIDO",
+    "Franquia": "Forza Horizon",
+    "Mecanica": 90,
+    "Grafico": 100,
+    "Trilha Sonora": 90,
+    "Historia": 60,
     "Otimização": 100,
     "Media": 88
   },
@@ -68,6 +119,23 @@
     "Media": 84
   },
   {
+    "Nome Do Jogo": "Beast Of Reincarnation",
+    "Empresa": "Game Freak",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "HackSlash",
+    "Gen2": "Aventura",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Beast of Reincarnation",
+    "Mecanica": 74,
+    "Grafico": 77,
+    "Trilha Sonora": 90,
+    "Historia": 80,
+    "Otimização": 99,
+    "Media": 84
+  },
+  {
     "Nome Do Jogo": "Saros",
     "Empresa": "Housemarque",
     "Ano de Lançamento": 2026,
@@ -100,5 +168,39 @@
     "Historia": 70,
     "Otimização": 100,
     "Media": 81
+  },
+  {
+    "Nome Do Jogo": "Star Fox",
+    "Empresa": "Velan Studios",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "Nintendo Switch 2",
+    "Gen1": "FPS",
+    "Gen2": "Arcade",
+    "Nacionalidade": "EUA",
+    "Franquia": "Star Fox",
+    "Mecanica": 80,
+    "Grafico": 75,
+    "Trilha Sonora": 75,
+    "Historia": 60,
+    "Otimização": 100,
+    "Media": 78
+  },
+  {
+    "Nome Do Jogo": "Fears To Fathom Scratch Creek",
+    "Empresa": "Rayll Studios",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "TERROR",
+    "Gen2": "COOP",
+    "Nacionalidade": "INDIA",
+    "Franquia": "Fears To Fathom",
+    "Mecanica": 90,
+    "Grafico": 80,
+    "Trilha Sonora": 70,
+    "Historia": 75,
+    "Otimização": 60,
+    "Media": 75
   }
 ]

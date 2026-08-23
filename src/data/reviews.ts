@@ -429,5 +429,80 @@ export const reviews: Review[] = [
   assetPath: "/assets/26/Subnautica2/frontpage.png",
 },
 
+{
+  name: "Forza Horizon 6",
+  note: 88,
+  date: "2026-05-25",
+  description: "Forza Horizon chega ao 6º jogo da franquia e entrega um jogo muito divertido com gráficos lindos, porém cai na mesma rotina dos jogos de corrida atuais, com falhas na progressão de carros e uma história fraca.",
+  path: "/jogos/forza-horizon-6",
+  assetPath: "/assets/26/ForzaHorizon6/frontpage.png",
+},
+{
+  name: "007 First Light",
+  note: 90, // PREENCHA COM A NOTA AQUI
+  date: "2026-06-01",
+  description: "Uma nova franquia dos tempos modernos, 007 estreia bem.",
+  path: "/jogos/007-first-light",
+  assetPath: "/assets/26/007FirstLight/frontpage.png",
+},
+{
+  name: "Fears to Fathom - Scratch Creek",
+  note: 75,
+  date: "2026-06-12",
+  description: "Primeiro jogo multiplayer do Fears to Fathom, e também o jogo com mais bugs que já vi da série.",
+  path: "/jogos/fears-to-fathom-scratch-creek",
+  assetPath: "/assets/26/FearsToFathomSC/frontpage.png",
+},
+{
+  name: "Star Fox",
+  note: 78,
+  date: "2026-06-28",
+  description: "Depois de 10 anos, Star fox ganha um outro jogo, porem é um remake feito de forma segura, ou seja, sem inovar ou acrescentar algo comparado ao original.",
+  path: "/jogos/star-fox",
+  assetPath: "/assets/26/StarFox/frontpage.png",
+},
+{
+  name: "AC Black Flag Resynced",
+  note: 95,
+  date: "2026-07-19",
+  description: "O primeiro remake da franquia Assassin's Creed foi o Black Flag, e o jogo foi muito bem feito.",
+  path: "/jogos/assassins-creed-black-flag-resynced",
+  assetPath: "/assets/26/ACBlackFlag/frontpage.png",
+},
+{
+  name: "Beast of Reincarnation",
+  note: 84,
+  date: "2026-08-05",
+  description: "Um bom hack and slash da Game Freak que surpreende com uma trilha sonora excelente e história envolvente, apesar de pecar na variedade de inimigos.",
+  path: "/jogos/beast-of-reincarnation",
+  assetPath: "/assets/26/BeastofReincarnation/frontpage.png",
+},
+{
+name: "Pokemon Stadium",
+note: 76,
+date: "2026-08-11",
+description: "Jogo 3D de batalha que cada fã de Pokémon na época sempre sonhou.",
+path: "/jogos/pokemon-stadium",
+assetPath: "/assets/26/PokemonStadium/frontpage.png",
+},
+{
+name: "Super Mario World",
+note: 94,
+date: "2026-08-11",
+description: "Um dos melhores jogos feitos na história da indústria dos games, possivelmente está na lista dos 100 melhores.",
+path: "/jogos/super-mario-world",
+assetPath: "/assets/26/SuperMarioWorld/frontpage.png",
+},
+{
+  name: "Octopath Traveler 2",
+  note: 93,
+  date: "2026-08-23",
+  description: "O jogo mantém a qualidade do Octopath Traveler 1, não inova tanto, mas é um bom jogo.",
+  path: "/jogos/octopath-traveler-2",
+  assetPath: "/assets/26/OctopathTraveler2/frontpage.png",
+},
+
+
+
 
 ];

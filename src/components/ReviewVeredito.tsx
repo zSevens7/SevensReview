@@ -3,9 +3,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 interface ReviewVereditoProps {
-  text: string;          // Texto do veredito
-  rating?: number;       // Nota
-  date: string;          // Data da edição do autor
+  text: React.ReactNode;
+  rating?: number;
+  date: string;
 }
 
 const getBorderColor = (rating?: number) => {

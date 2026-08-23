@@ -1,0 +1,19 @@
+[
+  {
+    "Nome Do Jogo": "Super Mario World",
+    "Empresa": "Nintendo",
+    "Ano de Lançamento": 1990,
+    "Situação": "ZERADO",
+    "Plataforma": "Super Nintendo",
+    "Gen1": "Plataforma",
+    "Gen2": "Puzzle",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Mario",
+    "Mecanica": 100,
+    "Grafico": 95,
+    "Trilha Sonora": 95,
+    "Historia": 80,
+    "Otimização": 100,
+    "Media": 94
+  }
+]

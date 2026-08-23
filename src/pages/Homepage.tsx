@@ -27,7 +27,7 @@ export default function HomePage() {
   const paginatedReviews = sortedReviews.slice((page - 1) * quantity, page * quantity);
 
   return (
-    <div className="container mx-auto px-4 py-6 bg-gray-50 dark:bg-gray-900 min-h-screen transition-colors">
+    <div className="container mx-auto px-6 sm:px-12 lg:px-24 py-8 bg-gray-50 dark:bg-gray-900 min-h-screen transition-colors">
       <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">Últimas Reviews</h1>
 
       {/* Filtro e Ordenação */}

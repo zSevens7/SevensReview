@@ -1,5 +1,22 @@
 [
   {
+    "Nome Do Jogo": "Octopath Traveler 2",
+    "Empresa": "Square Enix",
+    "Ano de Lançamento": 2023,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Rpg Turno",
+    "Gen2": "Aventura",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Octopath Traveler",
+    "Mecanica": 90,
+    "Grafico": 100,
+    "Trilha Sonora": 80,
+    "Historia": 100,
+    "Otimização": 95,
+    "Media": 93
+  },
+  {
     "Nome Do Jogo": "Football Manager 24",
     "Empresa": "Sports Interactive",
     "Ano de Lançamento": 2023,

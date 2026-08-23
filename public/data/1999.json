@@ -32,5 +32,22 @@
     "Historia": 80,
     "Otimização": 95,
     "Media": 87
+  },
+  {
+    "Nome Do Jogo": "Pokemon Stadium",
+    "Empresa": "Nintendo",
+    "Ano de Lançamento": 1999,
+    "Situação": "ZERADO",
+    "Plataforma": "Nintendo 64",
+    "Gen1": "Rpg Turno",
+    "Gen2": "Arcade",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Pokemon",
+    "Mecanica": 70,
+    "Grafico": 90,
+    "Trilha Sonora": 65,
+    "Historia": 60,
+    "Otimização": 95,
+    "Media": 76
   }
 ]

@@ -60,6 +60,15 @@ const PokemonLeafgreen = lazy(() => import('../pages/jogos/PokemonLeafgreen')); 
 const SuperBattleGolf = lazy(() => import('../pages/jogos/SuperBattleGolf')); // ← NOVO!
 const Saros = lazy(() => import('../pages/jogos/Saros')); // ← CORRIGIDO!
 const Subnautica2 = lazy(() => import('../pages/jogos/Subnautica2')); // ← NOVO!
+const ForzaHorizon6 = lazy(() => import('../pages/jogos/ForzaHorizon6')); // ← NOVO!
+const JamesBondFirstLight = lazy(() => import('../pages/jogos/007FirstLight')); // ← NOVO!
+const FearsToFathomSC = lazy(() => import('../pages/jogos/FearsToFathomSC')); // ← NOVO!
+const StarFox = lazy(() => import('../pages/jogos/StarFox')); // ← NOVO!
+const ACBlackFlag = lazy(() => import('../pages/jogos/ACBlackFlag')); // ← NOVO!
+const BeastofReincarnation = lazy(() => import('../pages/jogos/BeastofReincarnation')); // ← NOVO!
+const PokemonStadium = lazy(() => import('../pages/jogos/PokemonStadium')); // ← NOVO!
+const SuperMarioWorld = lazy(() => import('../pages/jogos/SuperMarioWorld')); // ← NOVO!
+const OctopathTraveler2 = lazy(() => import('../pages/jogos/OctopathTraveler2')); // ← NOVO!
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -125,7 +134,15 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/super-battle-golf" element={<SuperBattleGolf />} /> {/* ← NOVO! */}
       <Route path="/jogos/saros" element={<Saros />} /> {/* ← CORRIGIDO! */}
       <Route path="/jogos/subnautica-2" element={<Subnautica2 />} /> {/* ← NOVO! */}
-
+      <Route path="/jogos/forza-horizon-6" element={<ForzaHorizon6 />} /> {/* ← NOVO! */}
+      <Route path="/jogos/007-first-light" element={<JamesBondFirstLight />} /> {/* ← NOVO! */}
+      <Route path="/jogos/fears-to-fathom-scratch-creek" element={<FearsToFathomSC />} /> {/* ← NOVO! */}
+      <Route path="/jogos/star-fox" element={<StarFox />} /> 
+      <Route path="/jogos/assassins-creed-black-flag-resynced" element={<ACBlackFlag />} /> {/* ← NOVO! */}
+      <Route path="/jogos/beast-of-reincarnation" element={<BeastofReincarnation />} /> {/* ← NOVO! */}
+      <Route path="/jogos/pokemon-stadium" element={<PokemonStadium />} /> {/* ← NOVO! */}
+      <Route path="/jogos/super-mario-world" element={<SuperMarioWorld />} /> {/* ← NOVO! */}
+      <Route path="/jogos/octopath-traveler-2" element={<OctopathTraveler2 />} /> {/* ← NOVO! */}
 
     </Routes>
   </Suspense>
