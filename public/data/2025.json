@@ -187,6 +187,23 @@
     "Media": 88
   },
   {
+    "Nome Do Jogo": "Mario Kart World",
+    "Empresa": "Nintendo",
+    "Ano de Lançamento": 2025,
+    "Situação": "ZERADO",
+    "Plataforma": "Nintendo Switch 2",
+    "Gen1": "Corrida",
+    "Gen2": "Arcade",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Mario Kart",
+    "Mecanica": 90,
+    "Grafico": 100,
+    "Trilha Sonora": 90,
+    "Historia": 60,
+    "Otimização": 100,
+    "Media": 88
+  },
+  {
     "Nome Do Jogo": "F1 2025",
     "Empresa": "Codemasters",
     "Ano de Lançamento": 2025,

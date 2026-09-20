@@ -120,11 +120,7 @@ const OctopathTraveler2: React.FC = () => {
 
           {/* Otimização */}
           <ReviewSection title="Otimização" rating={95}>
-             <GameImage 
-              src="/assets/26/OctopathTraveler2/otimizacao.png" 
-              alt="Otimização de Octopath Traveler 2" 
-              className="max-w-xs md:max-w-md lg:max-w-lg"
-            />
+             
             <p className="mb-4">
               O jogo é bem simples graficamente, então é muito difícil ter problemas de otimização de hardware. Porém, precisamos falar que o jogo não tem legenda oficial em português. Apesar de eu ter jogado com uma legenda feita por fãs, é o tipo de jogo que precisa de tradução oficial urgente, porque tem bastante texto e narrativa.
             </p>

@@ -501,6 +501,30 @@ assetPath: "/assets/26/SuperMarioWorld/frontpage.png",
   path: "/jogos/octopath-traveler-2",
   assetPath: "/assets/26/OctopathTraveler2/frontpage.png",
 },
+{
+  name: "The Blood of Dawnwalker",
+  note: 78,
+  date: "2026-09-07",
+  description: "O novo jogo do estúdio conhecido por ter ex-devs de The Witcher 3 estreia bem, sendo um RPG que tenta introduzir ideias novas.",
+  path: "/jogos/the-blood-of-dawnwalker",
+  assetPath: "/assets/26/BloodOfDawnwalker/frontpage.png",
+},
+{
+  name: "Mario Kart World",
+  note: 88,
+  date: "2026-09-10",
+  description: "Um novo Mario Kart depois de muito tempo. É um bom jogo, apesar de a ideia das pistas sem curvas nos torneios não ser muito agradável.",
+  path: "/jogos/mario-kart-world",
+  assetPath: "/assets/26/MarioKartWorld/frontpage.png",
+},
+{
+  name: "Marvel Wolverine",
+  note: 87,
+  date: "2026-09-20",
+  description: "Um dos jogos mais criticados pela rede social, mas afinal o jogo é realmente ruim?",
+  path: "/jogos/marvel-wolverine",
+  assetPath: "/assets/26/Wolverine/frontpage.png",
+}
 
 
 

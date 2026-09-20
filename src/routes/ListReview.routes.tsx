@@ -69,6 +69,9 @@ const BeastofReincarnation = lazy(() => import('../pages/jogos/BeastofReincarnat
 const PokemonStadium = lazy(() => import('../pages/jogos/PokemonStadium')); // ← NOVO!
 const SuperMarioWorld = lazy(() => import('../pages/jogos/SuperMarioWorld')); // ← NOVO!
 const OctopathTraveler2 = lazy(() => import('../pages/jogos/OctopathTraveler2')); // ← NOVO!
+const BloodOfDawnwalker = lazy(() => import('../pages/jogos/BloodOfDawnwalker')); // ← NOVO!
+const MarioKartWorld = lazy(() => import('../pages/jogos/MarioKartWorld')); // ← NOVO!
+const MarvelWolverine = lazy(() => import('../pages/jogos/MarvelWolverine')); // ← NOVO!
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -143,6 +146,9 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/pokemon-stadium" element={<PokemonStadium />} /> {/* ← NOVO! */}
       <Route path="/jogos/super-mario-world" element={<SuperMarioWorld />} /> {/* ← NOVO! */}
       <Route path="/jogos/octopath-traveler-2" element={<OctopathTraveler2 />} /> {/* ← NOVO! */}
+      <Route path="/jogos/the-blood-of-dawnwalker" element={<BloodOfDawnwalker />} /> {/* ← NOVO! */}
+      <Route path="/jogos/mario-kart-world" element={<MarioKartWorld />} /> {/* ← NOVO! */}
+      <Route path="/jogos/marvel-wolverine" element={<MarvelWolverine />} /> {/* ← NOVO! */}
 
     </Routes>
   </Suspense>

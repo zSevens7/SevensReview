@@ -476,6 +476,23 @@
     "Media": 88
   },
   {
+    "Nome Do Jogo": "Mario Kart World",
+    "Empresa": "Nintendo",
+    "Ano de Lançamento": 2025,
+    "Situação": "ZERADO",
+    "Plataforma": "Nintendo Switch 2",
+    "Gen1": "Corrida",
+    "Gen2": "Arcade",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Mario Kart",
+    "Mecanica": 90,
+    "Grafico": 100,
+    "Trilha Sonora": 90,
+    "Historia": 60,
+    "Otimização": 100,
+    "Media": 88
+  },
+  {
     "Nome Do Jogo": "Pokemon Glazed",
     "Empresa": "Redriders180",
     "Ano de Lançamento": 2022,
@@ -541,6 +558,40 @@
     "Trilha Sonora": 85,
     "Historia": 80,
     "Otimização": 95,
+    "Media": 87
+  },
+  {
+    "Nome Do Jogo": "Mario Kart 7",
+    "Empresa": "Nintendo",
+    "Ano de Lançamento": 2011,
+    "Situação": "ZERADO",
+    "Plataforma": "3DS",
+    "Gen1": "Corrida",
+    "Gen2": "Arcade",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Mario Kart",
+    "Mecanica": 85,
+    "Grafico": 80,
+    "Trilha Sonora": 90,
+    "Historia": 85,
+    "Otimização": 95,
+    "Media": 87
+  },
+  {
+    "Nome Do Jogo": "Marvel Wolverine",
+    "Empresa": "Insomniac Games",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PS5",
+    "Gen1": "HackSlash",
+    "Gen2": "Aventura",
+    "Nacionalidade": "EUA",
+    "Franquia": "X-Men",
+    "Mecanica": 90,
+    "Grafico": 90,
+    "Trilha Sonora": 70,
+    "Historia": 85,
+    "Otimização": 100,
     "Media": 87
   },
   {
@@ -898,6 +949,23 @@
     "Trilha Sonora": 75,
     "Historia": 60,
     "Otimização": 100,
+    "Media": 78
+  },
+  {
+    "Nome Do Jogo": "The Blood of Dawnwalker",
+    "Empresa": "Rebel Wolves",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "RPG",
+    "Gen2": "Aventura",
+    "Nacionalidade": "POLONIA",
+    "Franquia": "The Blood of Dawnwalker",
+    "Mecanica": 90,
+    "Grafico": 90,
+    "Trilha Sonora": 55,
+    "Historia": 56,
+    "Otimização": 99,
     "Media": 78
   },
   {

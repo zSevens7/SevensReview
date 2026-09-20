@@ -85,6 +85,23 @@
     "Media": 88
   },
   {
+    "Nome Do Jogo": "Marvel Wolverine",
+    "Empresa": "Insomniac Games",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PS5",
+    "Gen1": "HackSlash",
+    "Gen2": "Aventura",
+    "Nacionalidade": "EUA",
+    "Franquia": "X-Men",
+    "Mecanica": 90,
+    "Grafico": 90,
+    "Trilha Sonora": 70,
+    "Historia": 85,
+    "Otimização": 100,
+    "Media": 87
+  },
+  {
     "Nome Do Jogo": "Subnautica 2",
     "Empresa": "Unknown Worlds Entertainment",
     "Ano de Lançamento": 2026,
@@ -184,6 +201,23 @@
     "Trilha Sonora": 75,
     "Historia": 60,
     "Otimização": 100,
+    "Media": 78
+  },
+  {
+    "Nome Do Jogo": "The Blood of Dawnwalker",
+    "Empresa": "Rebel Wolves",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "RPG",
+    "Gen2": "Aventura",
+    "Nacionalidade": "POLONIA",
+    "Franquia": "The Blood of Dawnwalker",
+    "Mecanica": 90,
+    "Grafico": 90,
+    "Trilha Sonora": 55,
+    "Historia": 56,
+    "Otimização": 99,
     "Media": 78
   },
   {

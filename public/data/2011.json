@@ -15,5 +15,22 @@
     "Historia": 65,
     "Otimização": 100,
     "Media": 88
+  },
+  {
+    "Nome Do Jogo": "Mario Kart 7",
+    "Empresa": "Nintendo",
+    "Ano de Lançamento": 2011,
+    "Situação": "ZERADO",
+    "Plataforma": "3DS",
+    "Gen1": "Corrida",
+    "Gen2": "Arcade",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Mario Kart",
+    "Mecanica": 85,
+    "Grafico": 80,
+    "Trilha Sonora": 90,
+    "Historia": 85,
+    "Otimização": 95,
+    "Media": 87
   }
 ]

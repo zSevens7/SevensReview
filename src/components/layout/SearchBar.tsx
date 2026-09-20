@@ -61,6 +61,10 @@ const pages: Page[] = [
   { name: "pragmata", path: "/jogos/pragmata" },
   { name: "pokemon leafgreen", path: "/jogos/pokemon-leafgreen" },
   { name: "super battle golf", path: "/jogos/super-battle-golf" },
+  { name: "octopath traveler 2", path: "/jogos/octopath-traveler-2" },
+  { name: "blood of dawnwalker", path: "/jogos/blood-of-dawnwalker" },
+  { name: "mario kart world", path: "/jogos/mario-kart-world" },
+  { name: "marvel wolverine", path: "/jogos/marvel-wolverine" }
 ];
 
 // Log inicial para verificar o array de páginas
