@@ -524,7 +524,25 @@ assetPath: "/assets/26/SuperMarioWorld/frontpage.png",
   description: "Um dos jogos mais criticados pela rede social, mas afinal o jogo é realmente ruim?",
   path: "/jogos/marvel-wolverine",
   assetPath: "/assets/26/Wolverine/frontpage.png",
+
+},
+{
+  name: "Trails in the Sky 2nd Chapter Remake",
+  note: 95,
+  date: "2026-10-07",
+  description: "A continuação do remake de Trails in the Sky continua no mesmo nível do primeiro: excelente.",
+  path: "/jogos/trails-in-the-sky-sc",
+  assetPath: "/assets/26/TrailsInTheSky2/frontpage.png",
+},
+{
+  name: "Yami Kids",
+  note: 84,
+  date: "2026-10-13",
+  description: "Um jogo com arte pixelizada bonita que apresenta uma boa mecânica e trilha sonora, mas peca um pouco na história do jogo.",
+  path: "/jogos/yami-kids",
+  assetPath: "/assets/26/YamiKids/frontpage.png",
 }
+
 
 
 

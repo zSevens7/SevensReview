@@ -17,6 +17,23 @@
     "Media": 95
   },
   {
+    "Nome Do Jogo": "Trails in the Sky 2st Chapter",
+    "Empresa": "Nihon Falcom",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Rpg Turno",
+    "Gen2": "Aventura",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Trails",
+    "Mecanica": 100,
+    "Grafico": 95,
+    "Trilha Sonora": 90,
+    "Historia": 95,
+    "Otimização": 95,
+    "Media": 95
+  },
+  {
     "Nome Do Jogo": "Pokopia",
     "Empresa": "Pokemon Company",
     "Ano de Lançamento": 2026,
@@ -150,6 +167,23 @@
     "Trilha Sonora": 90,
     "Historia": 80,
     "Otimização": 99,
+    "Media": 84
+  },
+  {
+    "Nome Do Jogo": "Yami Kids",
+    "Empresa": "YanakoRPG/DevTosh",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Rpg Turno",
+    "Gen2": "Aventura",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "Yami Kids",
+    "Mecanica": 90,
+    "Grafico": 90,
+    "Trilha Sonora": 85,
+    "Historia": 60,
+    "Otimização": 95,
     "Media": 84
   },
   {

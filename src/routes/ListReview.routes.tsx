@@ -72,6 +72,8 @@ const OctopathTraveler2 = lazy(() => import('../pages/jogos/OctopathTraveler2'))
 const BloodOfDawnwalker = lazy(() => import('../pages/jogos/BloodOfDawnwalker')); // ← NOVO!
 const MarioKartWorld = lazy(() => import('../pages/jogos/MarioKartWorld')); // ← NOVO!
 const MarvelWolverine = lazy(() => import('../pages/jogos/MarvelWolverine')); // ← NOVO!
+const TrailsInTheSkySC = lazy(() => import('../pages/jogos/TrailsInTheSky2')); // ← NOVO!
+const YamiKids = lazy(() => import('../pages/jogos/YamiKids')); // ← NOVO!
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -149,6 +151,8 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/the-blood-of-dawnwalker" element={<BloodOfDawnwalker />} /> {/* ← NOVO! */}
       <Route path="/jogos/mario-kart-world" element={<MarioKartWorld />} /> {/* ← NOVO! */}
       <Route path="/jogos/marvel-wolverine" element={<MarvelWolverine />} /> {/* ← NOVO! */}
+      <Route path="/jogos/trails-in-the-sky-sc" element={<TrailsInTheSkySC />} /> {/* ← NOVO! */}
+      <Route path="/jogos/yami-kids" element={<YamiKids />} /> {/* ← NOVO! */}
 
     </Routes>
   </Suspense>
