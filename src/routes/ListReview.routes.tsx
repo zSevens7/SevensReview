@@ -74,6 +74,7 @@ const MarioKartWorld = lazy(() => import('../pages/jogos/MarioKartWorld')); // �
 const MarvelWolverine = lazy(() => import('../pages/jogos/MarvelWolverine')); // ← NOVO!
 const TrailsInTheSkySC = lazy(() => import('../pages/jogos/TrailsInTheSky2')); // ← NOVO!
 const YamiKids = lazy(() => import('../pages/jogos/YamiKids')); // ← NOVO!
+const CastlevaniaBelmontsCurse = lazy(() => import('../pages/jogos/CastlevaniaBelmontsCurse')); // ← NOVO!
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -153,6 +154,7 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/marvel-wolverine" element={<MarvelWolverine />} /> {/* ← NOVO! */}
       <Route path="/jogos/trails-in-the-sky-sc" element={<TrailsInTheSkySC />} /> {/* ← NOVO! */}
       <Route path="/jogos/yami-kids" element={<YamiKids />} /> {/* ← NOVO! */}
+      <Route path="/jogos/castlevania-belmonts-curse" element={<CastlevaniaBelmontsCurse />} /> {/* ← NOVO! */}
 
     </Routes>
   </Suspense>

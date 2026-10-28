@@ -510,6 +510,23 @@
     "Media": 88
   },
   {
+    "Nome Do Jogo": "Castlevania Belmont's Curse",
+    "Empresa": "Konami",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Metrodvania",
+    "Gen2": "Plataforma",
+    "Nacionalidade": "FRANÇA",
+    "Franquia": "Castlevania",
+    "Mecanica": 90,
+    "Grafico": 100,
+    "Trilha Sonora": 70,
+    "Historia": 80,
+    "Otimização": 100,
+    "Media": 88
+  },
+  {
     "Nome Do Jogo": "Pokemon Glazed",
     "Empresa": "Redriders180",
     "Ano de Lançamento": 2022,
@@ -1001,6 +1018,23 @@
     "Historia": 56,
     "Otimização": 99,
     "Media": 78
+  },
+  {
+    "Nome Do Jogo": "One Piece Grand Gourmet",
+    "Empresa": "Bandai",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "PC",
+    "Gen1": "Simulação",
+    "Gen2": "Estrategia",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "One Piece",
+    "Mecanica": 80,
+    "Grafico": 70,
+    "Trilha Sonora": 50,
+    "Historia": 85,
+    "Otimização": 100,
+    "Media": 77
   },
   {
     "Nome Do Jogo": "Tokyo Xtreme Racer",

@@ -541,6 +541,22 @@ assetPath: "/assets/26/SuperMarioWorld/frontpage.png",
   description: "Um jogo com arte pixelizada bonita que apresenta uma boa mecânica e trilha sonora, mas peca um pouco na história do jogo.",
   path: "/jogos/yami-kids",
   assetPath: "/assets/26/YamiKids/frontpage.png",
+},
+{
+  name: "Castlevania Belmont's Curse",
+  note: 88,
+  date: "2026-10-20",
+  description: "Depois de 12 anos na geladeira, a Konami atua como publisher e acerta em mais um jogo, trazendo uma de suas franquias mais antigas de volta com muita qualidade e visual mais moderno.",
+  path: "/jogos/castlevania-belmonts-curse",
+  assetPath: "/assets/26/CastlevaniaBelmontCurse/frontpage.png",
+},
+{
+  name: "One Piece Grand Gourmet",
+  note: 77,
+  date: "2026-10-28",
+  description: "Um jogo único de gerenciamento de restaurante do Sanji (de One Piece) que é divertido e viciante.",
+  path: "/jogos/one-piece-grand-gourmet",
+  assetPath: "/assets/26/OnePieceGrandGourmet/frontpage.png",
 }
 
 

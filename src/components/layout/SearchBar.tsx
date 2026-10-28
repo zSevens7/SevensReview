@@ -64,7 +64,10 @@ const pages: Page[] = [
   { name: "octopath traveler 2", path: "/jogos/octopath-traveler-2" },
   { name: "blood of dawnwalker", path: "/jogos/blood-of-dawnwalker" },
   { name: "mario kart world", path: "/jogos/mario-kart-world" },
-  { name: "marvel wolverine", path: "/jogos/marvel-wolverine" }
+  { name: "marvel wolverine", path: "/jogos/marvel-wolverine" },
+  { name: "trails in the sky sc", path: "/jogos/trails-in-the-sky-sc" },
+  { name: "yami kids", path: "/jogos/yami-kids" },
+  { name: "castlevania belmont's curse", path: "/jogos/castlevania-belmonts-curse" }
 ];
 
 // Log inicial para verificar o array de páginas
