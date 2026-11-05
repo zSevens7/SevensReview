@@ -67,7 +67,10 @@ const pages: Page[] = [
   { name: "marvel wolverine", path: "/jogos/marvel-wolverine" },
   { name: "trails in the sky sc", path: "/jogos/trails-in-the-sky-sc" },
   { name: "yami kids", path: "/jogos/yami-kids" },
-  { name: "castlevania belmont's curse", path: "/jogos/castlevania-belmonts-curse" }
+  { name: "castlevania belmont's curse", path: "/jogos/castlevania-belmonts-curse" },
+  { name: "one piece grand cruise", path: "/jogos/one-piece-grand-cruise" },
+  { name: "phantom blade zero", path: "/jogos/phantom-blade-zero" },
+
 ];
 
 // Log inicial para verificar o array de páginas

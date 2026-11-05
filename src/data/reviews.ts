@@ -557,7 +557,15 @@ assetPath: "/assets/26/SuperMarioWorld/frontpage.png",
   description: "Um jogo único de gerenciamento de restaurante do Sanji (de One Piece) que é divertido e viciante.",
   path: "/jogos/one-piece-grand-gourmet",
   assetPath: "/assets/26/OnePieceGrandGourmet/frontpage.png",
-}
+},
+{
+  name: "Phantom Blade Zero",
+  note: 85,
+  date: "2026-11-05",
+  description: "Depois de tanto hack slash \"soulslike\", finalmente temos um hack slash em sua pura essência apresentando excelente mecânica ao estilo kung fu chinês.",
+  path: "/jogos/phantom-blade-zero",
+  assetPath: "/assets/26/PhantomBlade0/frontpage.png",
+},
 
 
 
