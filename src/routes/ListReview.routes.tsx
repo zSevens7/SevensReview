@@ -77,6 +77,7 @@ const YamiKids = lazy(() => import('../pages/jogos/YamiKids')); // ← NOVO!
 const CastlevaniaBelmontsCurse = lazy(() => import('../pages/jogos/CastlevaniaBelmontsCurse')); // ← NOVO!
 const OnePieceGrandGourmet = lazy(() => import('../pages/jogos/OnePieceGrandGourmet')); // ← NOVO!
 const PhantomBladeZero = lazy(() => import('../pages/jogos/PhantomBladeZero')); // ← NOVO!
+const ZeldaOcarinaRemake = lazy(() => import('../pages/jogos/ZeldaOcarinaRemake')); // ← NOVO!
 
 
 const ListReviewRoutes: React.FC = () => (
@@ -159,6 +160,7 @@ const ListReviewRoutes: React.FC = () => (
       <Route path="/jogos/castlevania-belmonts-curse" element={<CastlevaniaBelmontsCurse />} /> {/* ← NOVO! */}
       <Route path="/jogos/one-piece-grand-gourmet" element={<OnePieceGrandGourmet />} /> {/* ← NOVO! */}
       <Route path="/jogos/phantom-blade-zero" element={<PhantomBladeZero />} /> {/* ← NOVO! */}
+      <Route path="/jogos/zelda-ocarina-remake" element={<ZeldaOcarinaRemake />} /> {/* ← NOVO! */}
 
     </Routes>
   </Suspense>

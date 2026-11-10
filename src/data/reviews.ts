@@ -566,6 +566,14 @@ assetPath: "/assets/26/SuperMarioWorld/frontpage.png",
   path: "/jogos/phantom-blade-zero",
   assetPath: "/assets/26/PhantomBlade0/frontpage.png",
 },
+{
+  name: "The Legend of Zelda: Ocarina of Time Remake",
+  note: 98,
+  date: "2026-11-10",
+  description: "O remake do jogo com maior nota da indústria dos games, será que realmente merece uma nota tão alta assim?",
+  path: "/jogos/zelda-ocarina-remake",
+  assetPath: "/assets/26/ZeldaOcarinaRemake/frontpage.png",
+},
 
 
 

@@ -1,5 +1,22 @@
 [
   {
+    "Nome Do Jogo": "The Legend of Zelda: Ocarina of Time Remake",
+    "Empresa": "Nintendo",
+    "Ano de Lançamento": 2026,
+    "Situação": "ZERADO",
+    "Plataforma": "Nintendo Switch 2",
+    "Gen1": "HackSlash",
+    "Gen2": "Aventura",
+    "Nacionalidade": "JAPÃO",
+    "Franquia": "The Legend of Zelda",
+    "Mecanica": 100,
+    "Grafico": 100,
+    "Trilha Sonora": 90,
+    "Historia": 100,
+    "Otimização": 100,
+    "Media": 98
+  },
+  {
     "Nome Do Jogo": "Assassin's Creed Black Flag Resynced",
     "Empresa": "Ubisoft",
     "Ano de Lançamento": 2026,

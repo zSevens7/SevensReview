@@ -70,6 +70,7 @@ const pages: Page[] = [
   { name: "castlevania belmont's curse", path: "/jogos/castlevania-belmonts-curse" },
   { name: "one piece grand cruise", path: "/jogos/one-piece-grand-cruise" },
   { name: "phantom blade zero", path: "/jogos/phantom-blade-zero" },
+  { name: "the legend of zelda: ocarina of time remake", path: "/jogos/zelda-ocarina-remake" },
 
 ];
 
